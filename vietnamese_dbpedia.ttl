@@ -1,0 +1,1100 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vn-ont: <http://vi.dbpedia.org/ontology/> .
+@prefix vn-res: <http://vi.dbpedia.org/resource/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+vn-res:BHD a vn-ont:TổChức ;
+    rdfs:label "BHD"@vi ;
+    vn-ont:abstract "BHD là tên thường gọi của Công ty TNHH Bình Hạnh Đan, được thành lập năm 1996. Đây là một trong những công ty tư nhân đầu tiên tại Việt Nam hoạt động trong lĩnh vực truyền thông, phân phối, và hợp tác sản xuất các chương trình truyền hình và điện ảnh. Bắt đầu với con số 10 nhân viên lúc mới thành lập tại Hà Nội, hiện nay BHD đã có khoảng 200 nhân viên khắp Việt Nam."@vi ;
+    vn-ont:category vn-res:Công_ty_Việt_Nam,
+        vn-res:Công_ty_sản_xuất_phim_Việt_Nam,
+        vn-res:Công_ty_sản_xuất_truyền_hình_Việt_Nam,
+        vn-res:Pages_using_deprecated_image_syntax ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.480241"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/BHD> ] .
+
+vn-res:Big_C a vn-ont:TổChức ;
+    rdfs:label "Big C"@vi ;
+    vn-ont:abstract """Big C (tiếng Thái Lan: บิ๊กซี ซูเปอร์เซ็นเตอร์) là công ty điều hành các siêu thị và cửa hàng tiện lợi ở Đông Nam Á có trụ sở tại Bangkok, Thái Lan. Big C, vào năm 2016, là nhà điều hành hệ thống siêu thị lớn thứ hai của Thái Lan đi sau của Tesco Lotus. Họ có các hoạt động tại ba quốc gia, cụ thể là Thái Lan, Việt Nam và Lào. Big C và các công ty con đã điều hành 697 cửa hàng tại Thái Lan tính đến tháng 9 năm 2015. Công ty đã báo lãi ròng 38 triệu USD trong quý thứ ba kết thúc vào tháng 9 năm 2015, giảm 14,5% so với cùng kỳ năm ngoái.
+Công ty được thành lập bởi Central Group năm 1993 và Big C mở cửa hàng đầu tiên của mình tại ngã tư Wong Sawang, Bangkok (Thái Lan), cổ phiếu Big C lần đầu tiên được niêm yết trên Sở giao dịch chứng khoán Thái Lan năm 1995.
+Tại Việt Nam, sau 22 năm hoạt động trên thị trường, hệ thống Big C được tập đoàn mẹ Central Group chuyển đổi thương hiệu vào ngày 1/3/2021. Theo đó, 7 siêu thị Big C nằm trong các tòa nhà sẽ được đổi tên mới là Tops Market và 5 đại siêu thị Big C hoàn tất đổi tên thành GO!."""@vi ;
+    vn-ont:category vn-res:Bài_viết_có_văn_bản_tiếng_Thái,
+        vn-res:Bản_mẫu_webarchive_dùng_liên_kết_wayback,
+        vn-res:Công_ty_Việt_Nam,
+        vn-res:Công_ty_có_trụ_sở_tại_Băng_Cốc,
+        vn-res:Cửa_hàng_tiện_ích,
+        vn-res:Nguồn_CS1_có_chữ_Thái_th,
+        vn-res:Nguồn_CS1_tiếng_Thái_th,
+        vn-res:Nhãn_hiệu_Thái_Lan,
+        vn-res:Siêu_thị_Thái_Lan,
+        vn-res:Trang_đưa_đối_số_thừa_vào_bản_mẫu ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.480369"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Big_C> ] .
+
+vn-res:Báo_Cao_Bằng a vn-ont:TổChức ;
+    rdfs:label "Báo Cao Bằng"@vi ;
+    vn-ont:abstract """Báo Cao Bằng (tiếng Anh: Cao Bang Newspaper) là cơ quan báo chí trực thuộc Ủy ban nhân dân tỉnh Cao Bằng.
+Trụ sở của Đài đặt tại số 87 phố Bế Văn Đàn, phường Thục Phán, tỉnh Cao Bằng."""@vi ;
+    vn-ont:category vn-res:Công_ty_Việt_Nam,
+        vn-res:Trang_có_tham_số_bản_mẫu_khóa_trang_không_đúng,
+        vn-res:Trang_sử_dụng_bản_mẫu_hộp_thông_tin_kênh_truyền_hình,
+        vn-res:Văn_hóa_Cao_Bằng,
+        vn-res:Đài_phát_thanh_Việt_Nam,
+        vn-res:Đài_truyền_hình_ở_Việt_Nam,
+        vn-res:Ủy_ban_nhân_dân_tỉnh_Cao_Bằng ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.480155"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Báo_Cao_Bằng> ] .
+
+vn-res:Bùi_Quang_Dũng a vn-ont:Người ;
+    rdfs:label "Bùi Quang Dũng"@vi ;
+    vn-ont:abstract """Bùi Quang Dũng (thế kỷ X) là một nhà hoạt động chính trị, quân sự nổi tiếng thời Đinh. Ông có nhiều công lao giúp Đinh Bộ Lĩnh dẹp 12 sứ quân và tổ chức khai phá, mở mang kinh tế vùng Bố Hải Khẩu (thuộc tỉnh Thái Bình ngày nay). Ông là vị tướng nổi tiếng trung liệt – không thờ hai vua (với triều Lê Đại Hành) nên sau này được Lý Thái Tổ tôn hiệu Minh Triết Phu Tử.
+
+"""@vi ;
+    vn-ont:category vn-res:Người_Phú_Thọ,
+        vn-res:Nhân_vật_lịch_sử_Việt_Nam,
+        vn-res:Quan_lại_nhà_Đinh,
+        vn-res:Sơ_khai_nhân_vật_quân_sự_Việt_Nam,
+        vn-res:Tất_cả_bài_viết_sơ_khai,
+        vn-res:Võ_tướng_nhà_Đinh ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.477029"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Bùi_Quang_Dũng> ] .
+
+vn-res:Cao_Minh_nhà_may a vn-ont:TổChức ;
+    rdfs:label "Cao Minh (nhà may)"@vi ;
+    vn-ont:abstract "Nhà may Cao Minh là một thương hiệu nhà may veston cao cấp nổi tiếng lâu đời tại Việt Nam được sáng lập từ năm 1948 bởi nhà thiết kế Lý Minh. Nhà may được biết đến nhiều vì từng may áo vest cho nhiều nhân vật công chúng nổi bật như Đại tướng Võ Nguyên Giáp. Ông Lý Minh được nhà nước Việt Nam công nhân danh hiệu \"Nghệ nhân ngành may\" năm 1991. Thương hiệu nhà may Cao Minh hiện có chi nhánh tại Hà Nội và Thành phố Hồ Chí Minh."@vi ;
+    vn-ont:category vn-res:Công_ty_Việt_Nam,
+        vn-res:Hoàn_toàn_không_có_nguồn_tham_khảo,
+        vn-res:Nhãn_hiệu_thời_trang_cao_cấp,
+        vn-res:Pages_using_deprecated_image_syntax,
+        vn-res:Sơ_khai_Việt_Nam,
+        vn-res:Tất_cả_bài_viết_cần_được_wiki_hóa,
+        vn-res:Tất_cả_bài_viết_sơ_khai ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.480477"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Cao_Minh_(nhà_may)> ] .
+
+vn-res:Cát_Tiên_Sa a vn-ont:TổChức ;
+    rdfs:label "Cát Tiên Sa"@vi ;
+    vn-ont:abstract "Cát Tiên Sa, hay còn gọi là CATS, được thành lập vào năm 1999, là một công ty truyền thông tại Việt Nam thuộc tập đoàn Cattiensa Media Group."@vi ;
+    vn-ont:category vn-res:Bài_viết_có_trích_dẫn_không_khớp,
+        vn-res:Công_ty_Việt_Nam,
+        vn-res:Công_ty_có_trụ_sở_tại_Thành_phố_Hồ_Chí_Minh,
+        vn-res:Công_ty_sản_xuất_truyền_hình_Việt_Nam,
+        vn-res:Công_ty_thành_lập_năm_1999,
+        vn-res:Hoàn_toàn_không_có_nguồn_tham_khảo,
+        vn-res:Sơ_khai_công_ty,
+        vn-res:Tất_cả_bài_viết_sơ_khai ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.480591"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Cát_Tiên_Sa> ] .
+
+vn-res:Công_ty_Cổ_phần_Chứng_khoán_VNDIRECT a vn-ont:TổChức ;
+    rdfs:label "Công ty Cổ phần Chứng khoán VNDIRECT"@vi ;
+    vn-ont:abstract "Công ty Cổ phần Chứng khoán VNDIRECT (tên giao dịch tiếng Anh: VNDIRECT Securities Corporation, tên viết tắt: VNDIRECT) là một công ty chứng khoán tại Việt Nam, hoạt động trong lĩnh vực Tài chính – Chứng khoán theo giấy phép của Ủy ban Chứng khoán Nhà nước (UBCKNN) với những nghiệp vụ kinh doanh bao gồm: hoạt động môi giới, lưu ký chứng khoán, tư vấn tài chính doanh nghiệp, tự doanh, bảo lãnh phát hành và quản lý danh mục đầu tư. VNDIRECT là công ty thành viên của tập đoàn đầu tư tư nhân đa ngành IPA (IPA Investments Corporation)."@vi ;
+    vn-ont:category vn-res:Công_ty_Việt_Nam,
+        vn-res:Công_ty_cổ_phần_Việt_Nam,
+        vn-res:Pages_using_deprecated_image_syntax,
+        vn-res:Trang_có_sử_dụng_tập_tin_không_tồn_tại ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.480680"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Công_ty_Cổ_phần_Chứng_khoán_VNDIRECT> ] .
+
+vn-res:Công_ty_Cổ_phần_Hàng_không_Hải_Âu a vn-ont:TổChức ;
+    rdfs:label "Công ty Cổ phần Hàng không Hải Âu"@vi ;
+    vn-ont:abstract "Công ty cổ phần Hàng không Hải Âu được thành lập năm 2011, là thành viên của Tập đoàn Thiên Minh (chuyên cung cấp các dịch vụ du lịch và khách sạn). Tính đến nay, Hàng không Hải Âu là đơn vị đầu tiên và duy nhất khai thác kinh doanh loại hình thủy phi cơ tại Việt Nam."@vi ;
+    vn-ont:category vn-res:Công_ty_Việt_Nam,
+        vn-res:Hãng_hàng_không_Việt_Nam ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.481292"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Công_ty_Cổ_phần_Hàng_không_Hải_Âu> ] .
+
+vn-res:Công_ty_Cổ_phần_truyền_thông_Sunrise a vn-ont:TổChức ;
+    rdfs:label "Công ty Cổ phần truyền thông Sunrise"@vi ;
+    vn-ont:abstract """Công ty Cổ phần truyền thông Sunrise hay còn gọi là Sunrise Media là một công ty hoạt động trong lĩnh vực truyền thông đa phương tiện, sản xuất dịch vụ quảng cáo truyền hình, chương trình truyền hình và mua lại bản quyền phim truyền hình tại Việt Nam.
+Công ty sản xuất nhiều chương trình truyền hình, đặc biệt là phim hoạt hình dài tập và các gameshow. Các chương trình do Sunrise Media thực hiện được phát sóng trên các kênh truyền hình như VTV1, VTV3, HTV7, HTV9...
+Trụ sở chính của công ty được đặt tại Hà Nội. Ngoài ra, công ty có Văn phòng đại diện tại Thành phố Hồ Chí Minh."""@vi ;
+    vn-ont:category vn-res:Công_ty_Việt_Nam,
+        vn-res:Website_chính_thức_không_có_trên_Wikidata ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.481725"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Công_ty_Cổ_phần_truyền_thông_Sunrise> ] .
+
+vn-res:Công_ty_Giấy_Bãi_Bằng a vn-ont:TổChức ;
+    rdfs:label "Công ty Giấy Bãi Bằng"@vi ;
+    vn-ont:abstract """Bãi Bằng là một doanh nghiệp nhà nước sản xuất bột giấy và các sản phẩm giấy của Việt Nam. Năm 2006, Công ty Giấy Bãi Bằng trở thành một thành viên của Tổng công ty Giấy Việt Nam, đóng góp hơn 50% sản lượng giấy in và giấy viết của tổng công ty này.
+Nhà máy Giấy Bãi Bằng được thành lập vào cuối năm 1982 với sự giúp đỡ về tài chính và công nghệ của chính phủ Thụy Điển. Ban đầu, Bãi Bằng chỉ gồm một nhà máy sản xuất giấy.
+Năm 2002, nhà máy được mở rộng, nâng công suất từ 48.000 tấn bột, 55.000 tấn giấy lên 61.000 tấn bột và 100.000 tấn giấy.
+Năm 2004, 16 lâm trường cung cấp nguyên liệu làm bột giấy vốn trước kia thuộc Công ty Nguyên liệu giấy Vĩnh Phú được sáp nhập vào Bãi Bằng. Công ty còn sản xuất cả phân bón vi sinh từ phế thải của quá trình sản xuất giấy.
+Cơ sở sản xuất và văn phòng chính của công ty tọa lạc tại thị trấn Phong Châu, huyện Phù Ninh, tỉnh Phú Thọ."""@vi ;
+    vn-ont:category vn-res:Bài_có_liên_kết_hỏng,
+        vn-res:Bản_mẫu_webarchive_dùng_liên_kết_wayback,
+        vn-res:Công_nghiệp_Việt_Nam,
+        vn-res:Công_ty_Việt_Nam,
+        vn-res:Giấy,
+        vn-res:Phú_Thọ,
+        vn-res:Sơ_khai_Phú_Thọ,
+        vn-res:Trang_thiếu_chú_thích_trong_bài,
+        vn-res:Tất_cả_bài_viết_sơ_khai,
+        vn-res:Tổng_công_ty_Giấy_Việt_Nam ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.480037"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Công_ty_Giấy_Bãi_Bằng> ] .
+
+vn-res:Công_ty_Liên_Thành a vn-ont:TổChức ;
+    rdfs:label "Công ty Liên Thành"@vi ;
+    vn-ont:abstract """Liên Thành Thương Quán, tên đăng ký tiếng Pháp: Société de Lien Thanh, hay được biết với tên thông dụng là Công ty Liên Thành, là một tổ chức kinh doanh do các sĩ phu yêu nước ở Bình Thuận sáng lập vào năm 1906 để hưởng ứng phong trào Duy Tân do Phan Châu Trinh, Trần Quý Cáp và Huỳnh Thúc Kháng khởi xướng tại Trung Kỳ. Tên Liên Thành được lựa chọn với ngụ ý bảo tồn truyền thống, có ý nghĩa là thành hoa sen, nguyên là tên cũ của tỉnh Bình Thuận, xuất phát từ một hồ sen nằm ở quận Hoà Đa.
+Trên phương diện lịch sử, Công ty Liên Thành đánh dấu sự hình thành của chủ nghĩa tư sản dân tộc ở Việt Nam, khởi nguồn từ tinh thần dân tộc rồi sau đó chuyển đổi sang tinh thần thực nghiệp Tây phương. Đây cũng là công ty Việt Nam có lịch sử tồn tại dài trên 100 năm và vẫn còn hoạt động cho đến tận ngày nay."""@vi ;
+    vn-ont:category vn-res:Bài_có_liên_kết_hỏng,
+        vn-res:Công_ty_Việt_Nam,
+        vn-res:Lỗi_CS1_ngày_tháng,
+        vn-res:Nước_mắm,
+        vn-res:Phong_trào_Duy_Tân,
+        vn-res:Tổ_chức_thành_lập_năm_1906 ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.482037"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Công_ty_Liên_Thành> ] .
+
+vn-res:Công_ty_MISA a vn-ont:TổChức ;
+    rdfs:label "Công ty MISA"@vi ;
+    vn-ont:abstract """MISA là công ty công nghệ thông tin tại  Việt Nam được thành lập năm 1994 với lĩnh vực kinh doanh chính là cung cấp các giải pháp công nghệ thông tin cho cộng đồng.
+Hiện MISA có 1 trụ sở chính tại Hà Nội và 05 văn phòng đại diện đặt tại Hà Nội, Đà Nẵng, Buôn Ma Thuột, TP. Hồ Chí Minh và Cần Thơ."""@vi ;
+    vn-ont:category vn-res:Công_ty_Việt_Nam,
+        vn-res:Công_ty_thành_lập_năm_1994 ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.482109"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Công_ty_MISA> ] .
+
+vn-res:Công_ty_Thủy_điện_Ialy a vn-ont:TổChức ;
+    rdfs:label "Công ty Thủy điện Ialy"@vi ;
+    vn-ont:abstract """Công ty Thủy điện Yaly là doanh nghiệp trực thuộc Tập đoàn Điện lực Việt Nam, chịu trách nhiệm quản lý vận hành 3 nhà máy thủy điện lớn trên hệ thống bậc thang thủy điện trên sông Sê San, bao gồm Nhà máy thủy điện Ialy, Sê San 3 và Plei Krông.
+Tiền thân của công ty là Nhà máy thủy điện Yaly, được khởi công xây dựng vào năm 1993, hoàn thành vào năm 2003, với nhà máy chính đặt tại thị trấn Ia Ly, huyện Chư Păh, tỉnh Gia Lai.
+Vào năm 2002, Nhà máy thủy điện Sê San 3 được khởi công xây dựng với công suất thiết kế 260 MW với 2 tổ máy. Một năm sau, năm 2003. Nhà máy thủy điện Plei Krông được khởi công xây dựng với công suất thiết kế 100 MW với 2 tổ máy. Nhà máy thủy điện Sê San 3 bắt đầu lưới điện quốc gia lần đầu tiên vào năm 2006.
+Đến năm 2007, Công ty Thủy điện Yaly được thành lập và quản lý vận hành 3 nhà máy thủy điện lớn trên hệ thống bậc thang thủy điện Sê San, bao gồm Nhà máy thủy điện Ialy, Sê San 3 và Plei Krông."""@vi ;
+    vn-ont:category vn-res:Chư_Păh,
+        vn-res:Công_ty_Việt_Nam,
+        vn-res:Sa_Thầy,
+        vn-res:Sơ_khai_Gia_Lai,
+        vn-res:Tất_cả_bài_viết_sơ_khai ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.482198"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Công_ty_Thủy_điện_Ialy> ] .
+
+vn-res:Công_ty_Truyền_hình_số_vệ_tinh_Việt_Nam a vn-ont:TổChức ;
+    rdfs:label "Công ty Truyền hình số vệ tinh Việt Nam"@vi ;
+    vn-ont:abstract """Công ty TNHH Truyền hình số vệ tinh Việt Nam (tên giao dịch: VSTV) là công ty liên doanh giữa Đài Truyền hình Việt Nam và Tập đoàn truyền hình Canal+ của Pháp. Đây là công ty đầu tiên có sự hợp tác giữa Việt Nam và Pháp trong lĩnh vực truyền hình.
+Sản phẩm nổi bật của công ty là dịch vụ truyền hình vệ tinh K+."""@vi ;
+    vn-ont:category vn-res:Công_ty_Việt_Nam,
+        vn-res:Pages_using_deprecated_image_syntax,
+        vn-res:Sơ_khai,
+        vn-res:Truyền_hình_vệ_tinh,
+        vn-res:Tất_cả_bài_viết_sơ_khai,
+        vn-res:Đài_Truyền_hình_Việt_Nam,
+        vn-res:Đài_truyền_hình_ở_Việt_Nam ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.482322"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Công_ty_Truyền_hình_số_vệ_tinh_Việt_Nam> ] .
+
+vn-res:Công_ty_Truyền_tải_điện_1 a vn-ont:TổChức ;
+    rdfs:label "Công ty Truyền tải điện 1"@vi ;
+    vn-ont:abstract "Công ty Truyền tải điện 1, tên tiếng Anh là: Power Transmission Company N01 (viết tắt PTC1), là một công ty chuyên sản xuất, kinh doanh vật tư thiết bị điện phục vụ sản xuất và truyền tải điện năng của Việt Nam, trực thuộc Tổng Công ty Truyền tải điện Quốc Gia."@vi ;
+    vn-ont:category vn-res:Bản_mẫu_webarchive_dùng_liên_kết_wayback,
+        vn-res:Công_ty_Việt_Nam,
+        vn-res:Công_ty_điện_lực,
+        vn-res:Công_ty_độc_quyền,
+        vn-res:Doanh_nghiệp_nhà_nước_Việt_Nam,
+        vn-res:Hoàn_toàn_không_có_nguồn_tham_khảo,
+        vn-res:Huân_chương_Lao_động,
+        vn-res:Sơ_khai_Việt_Nam,
+        vn-res:Tất_cả_bài_viết_sơ_khai,
+        vn-res:Tập_thể_được_phong_tặng_danh_hiệu_Anh_hùng_Lao_động ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.482451"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Công_ty_Truyền_tải_điện_1> ] .
+
+vn-res:Công_ty_cổ_phần_Tập_đoàn_Trường_Hải a vn-ont:TổChức ;
+    rdfs:label "Công ty cổ phần Tập đoàn Trường Hải"@vi ;
+    vn-ont:abstract "Công ty cổ phần Tập đoàn Trường Hải (viết tắt: THACO, tên giao dịch quốc tế: Truong Hai Group Corporation) là một tập đoàn đa ngành hoạt động trong lĩnh vực sản xuất và lắp ráp ô tô, nông nghiệp, cơ khí chế tạo, công nghiệp hỗ trợ, đầu tư xây dựng, thương mại, dịch vụ và giao nhận vận chuyển được thành lập vào ngày 29 tháng 4 năm 1997 có trụ sở chính tại Tòa nhà Sofic, số 10 Mai Chí Thọ, phường Thủ Thiêm, Thành phố Thủ Đức, Thành phố Hồ Chí Minh, Việt Nam."@vi ;
+    vn-ont:category vn-res:Bài_có_liên_kết_hỏng,
+        vn-res:Bản_mẫu_webarchive_dùng_liên_kết_wayback,
+        vn-res:Công_nghiệp_Việt_Nam,
+        vn-res:Công_ty_Việt_Nam,
+        vn-res:Công_ty_cổ_phần_Việt_Nam,
+        vn-res:Công_ty_sản_xuất_xe_hơi_Việt_Nam,
+        vn-res:Khởi_đầu_năm_1997_ở_Việt_Nam,
+        vn-res:Lỗi_CS1_ngày_tháng,
+        vn-res:Nguồn_CS1_tiếng_Anh_en,
+        vn-res:Nhãn_hiệu_Việt_Nam ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.481567"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Công_ty_cổ_phần_Tập_đoàn_Trường_Hải> ] .
+
+vn-res:Công_ty_cổ_phần_thương_mại_Nguyễn_Kim a vn-ont:TổChức ;
+    rdfs:label "Công ty cổ phần thương mại Nguyễn Kim"@vi ;
+    vn-ont:abstract "Công ty cổ phần thương mại Nguyễn Kim (Siêu thị điện máy Nguyễn Kim) với triết lý kinh doanh \"Tất cả cho khách hàng, khách hàng cho tất cả\", Thương hiệu số một trong ngành Bán lẻ điện tử tiêu dùng và Trung tâm Thương mại, đạt nhiều giải thưởng trong nước và quốc tế, được người tiêu dùng tin tưởng và đánh giá cao (Theo báo cáo nghiên cứu của AC Nielsen: 99% người tiêu dùng đánh giá Nguyễn Kim là Đơn vị số một trong ngành Bán lẻ Điện tử tiêu dùng)."@vi ;
+    vn-ont:category vn-res:Bản_mẫu_webarchive_dùng_liên_kết_wayback,
+        vn-res:Công_ty_Việt_Nam ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.481650"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Công_ty_cổ_phần_thương_mại_Nguyễn_Kim> ] .
+
+vn-res:Công_ty_cổ_phần_Đầu_tư_và_xây_dựng_số_18 a vn-ont:TổChức ;
+    rdfs:label "Công ty cổ phần Đầu tư và xây dựng số 18"@vi ;
+    vn-ont:abstract "Công ty Cổ phần Đầu tư và Xây dựng số 18, tên giao dịch quốc tế: Contruction Company No18 (Viết tắt: LICOGI - 18) có tiền thân là Công ty xây dựng số 18 thuộc Bộ Xây dựng Việt Nam, được thành lập ngày 19 tháng 5 năm 1961. Đây là một thành viên của Tổng công ty Xây dựng và phát triển hạ tầng."@vi ;
+    vn-ont:category vn-res:Bài_có_liên_kết_hỏng,
+        vn-res:Bài_mồ_côi,
+        vn-res:Bản_mẫu_webarchive_dùng_liên_kết_wayback,
+        vn-res:Công_ty_Việt_Nam,
+        vn-res:Huân_chương_Độc_lập_hạng_Nhất,
+        vn-res:Trang_thiếu_chú_thích_trong_bài,
+        vn-res:Tập_thể_được_phong_tặng_danh_hiệu_Anh_hùng_Lao_động,
+        vn-res:Đơn_vị_Anh_hùng_Lực_lượng_vũ_trang_nhân_dân ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.480795"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Công_ty_cổ_phần_Đầu_tư_và_xây_dựng_số_18> ] .
+
+vn-res:Công_ty_trách_nhiệm_hữu_hạn_Manulife_Việt_Nam a vn-ont:TổChức ;
+    rdfs:label "Công ty trách nhiệm hữu hạn Manulife Việt Nam"@vi ;
+    vn-ont:abstract "Công ty trách nhiệm hữu hạn Manulife Việt Nam thành lập tại Việt Nam vào tháng 6 năm 1999. Công ty cung cấp các dịch vụ tài chính cho hơn 390.000 khách hàng thông qua mạng lưới 10.000 đại lý bảo hiểm chuyên nghiệp. Manulife Việt Nam đã được cấp phép hoạt động trong lĩnh vực kinh doanh quản lý quỹ và vốn đầu tư tại Việt Nam với 14 năm hoạt động. Tổng doanh thu phí bảo hiểm của công ty năm 2012 đạt 2.154 tỷ đồng."@vi ;
+    vn-ont:category vn-res:Bài_có_liên_kết_hỏng,
+        vn-res:Công_ty_Việt_Nam,
+        vn-res:Công_ty_bảo_hiểm,
+        vn-res:Công_ty_trách_nhiệm_hữu_hạn,
+        vn-res:Khởi_đầu_năm_1999 ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.484345"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Công_ty_trách_nhiệm_hữu_hạn_Manulife_Việt_Nam> ] .
+
+vn-res:Công_ty_Đo_đạc_ảnh_địa_hình a vn-ont:TổChức ;
+    rdfs:label "Công ty Đo đạc ảnh địa hình"@vi ;
+    vn-ont:abstract """Công ty Đo đạc ảnh địa hình tiền thân là Liên đoàn Trắc địa địa hình I, Công ty được thành lập ngày 19 tháng 6 năm 1987. Trụ sở chính của Công ty đặt tại 51 Huỳnh Thúc Kháng, Quận Đống Đa, Thành phố Hà Nội.
+Cuôi năm 2009 là Tổng Công ty Tài nguyên và Môi trường Việt Nam.
+Đây là Công ty duy nhất ở Việt Nam có mô hình tổ chức sản xuất khép kín từ khâu bay chụp ảnh đến khâu biên tập ra bản đồ gốc dạng số và xây dựng cơ sở dữ liệu nền. Từ những ngày đầu thành lập đến nay, Công ty đã tham gia thực hiện nhiều dự án quan trọng, đặc biệt là về các công trình liên quan đến công tác phân định biên giới giữa Việt Nam và các nước: xây dựng bản đồ địa hình tỷ lệ 1:50.000 tuyến biên giới Việt - Lào, bản đồ địa hình tỷ lệ 1/50.000 biên giới Việt – Trung, biên giới Việt Nam - Campuchia."""@vi ;
+    vn-ont:category vn-res:Bài_có_liên_kết_hỏng,
+        vn-res:Bản_mẫu_webarchive_dùng_liên_kết_wayback,
+        vn-res:Bộ_Tài_nguyên_và_Môi_trường_Việt_Nam,
+        vn-res:Công_ty_Việt_Nam,
+        vn-res:Doanh_nghiệp_nhà_nước_Việt_Nam,
+        vn-res:Tập_thể_được_phong_tặng_danh_hiệu_Anh_hùng_Lao_động ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.481934"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Công_ty_Đo_đạc_ảnh_địa_hình> ] .
+
+vn-res:Công_ty_Đầu_tư_Tài_chính_Nhà_nước_Thành_phố_Hồ_Chí_Minh a vn-ont:TổChức ;
+    rdfs:label "Công ty Đầu tư Tài chính Nhà nước Thành phố Hồ Chí Minh"@vi ;
+    vn-ont:abstract "HFIC là tên viết tắt của Công ty Đầu tư Tài chính Nhà nước Tp.HCM, tống giám đốc là bà Phạm Thị Hồng Hà đồng thời là thành viên HĐTV. HFIC được Ủy ban nhân dân Thành phố Hồ Chí Minh ký quyết định thành lập vào năm 2010."@vi ;
+    vn-ont:category vn-res:Bài_có_liên_kết_hỏng,
+        vn-res:Công_ty_Việt_Nam,
+        vn-res:Công_ty_dịch_vụ_tài_chính,
+        vn-res:Công_ty_thành_lập_năm_2010,
+        vn-res:Doanh_nghiệp_nhà_nước_Việt_Nam,
+        vn-res:Tất_cả_bài_viết_cần_được_wiki_hóa ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.481828"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Công_ty_Đầu_tư_Tài_chính_Nhà_nước_Thành_phố_Hồ_Chí_Minh> ] .
+
+vn-res:Danh_sách_công_ty_trên_sàn_giao_dịch_chứng_khoán_Việt_Nam a vn-ont:TổChức ;
+    rdfs:label "Danh sách công ty trên sàn giao dịch chứng khoán Việt Nam"@vi ;
+    vn-ont:abstract "Dưới đây là danh sách các công ty niêm yết tại sàn giao dịch chứng khoán thành phố Hồ Chí Minh (HOSE) và sàn giao dịch chứng khoán Hà Nội (HNX), theo thứ tự mã giao dịch chứng khoán."@vi ;
+    vn-ont:category vn-res:Bản_mẫu_webarchive_dùng_liên_kết_wayback,
+        vn-res:Chứng_khoán,
+        vn-res:Công_ty_Việt_Nam,
+        vn-res:Danh_sách_công_ty_Việt_Nam,
+        vn-res:Kinh_doanh_ở_Việt_Nam ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.482666"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Danh_sách_công_ty_trên_sàn_giao_dịch_chứng_khoán_Việt_Nam> ] .
+
+vn-res:Danh_sách_doanh_nghiệp_công_nghệ_thông_tin_tại_Việt_Nam a vn-ont:TổChức ;
+    rdfs:label "Danh sách doanh nghiệp công nghệ thông tin tại Việt Nam"@vi ;
+    vn-ont:abstract "Danh sách một số công ty, doanh nghiệp công nghệ thông tin tại Việt Nam:"@vi ;
+    vn-ont:category vn-res:Bài_viết_dễ_bị_spam,
+        vn-res:Công_nghệ_thông_tin_Việt_Nam,
+        vn-res:Công_ty_Việt_Nam,
+        vn-res:Quản_lý_CS1_địa_điểm,
+        vn-res:Sơ_khai,
+        vn-res:Trang_sử_dụng_div_col_có_các_tham_số_không_rõ,
+        vn-res:Tất_cả_bài_viết_sơ_khai ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.482773"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Danh_sách_doanh_nghiệp_công_nghệ_thông_tin_tại_Việt_Nam> ] .
+
+vn-res:Danh_sách_hãng_ghi_hình_Việt_Nam a vn-ont:TổChức ;
+    rdfs:label "Danh sách hãng ghi hình Việt Nam"@vi ;
+    vn-ont:abstract "Danh sách chưa hoàn chỉnh dưới đây bao trùm cả các lĩnh vực mở rộng của công việc ghi hình hay làm video cũng như các hãng, các công ty, đơn vị của Việt Nam chuyên sản xuất sản phẩm phim video phục vụ mục đích cá nhân, nội bộ hoặc mục đích thương mại. Ở đây bao gồm cả các doanh nghiệp lớn, có tiếng tăm lẫn các doanh nghiệp địa phương với quy mô nhỏ hơn và có những đóng góp nổi bật trong lĩnh vực quay phim ghi hình."@vi ;
+    vn-ont:category vn-res:Bản_mẫu_cổng_thông_tin_có_liên_kết_đỏ_đến_cổng_thông_tin,
+        vn-res:Công_ty_Việt_Nam,
+        vn-res:Danh_sách_công_ty_Việt_Nam,
+        vn-res:Hãng_ghi_hình,
+        vn-res:Trang_sử_dụng_div_col_có_các_tham_số_không_rõ,
+        vn-res:Video ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.482872"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Danh_sách_hãng_ghi_hình_Việt_Nam> ] .
+
+vn-res:Danh_sách_hãng_hàng_không_Việt_Nam a vn-ont:TổChức ;
+    rdfs:label "Danh sách hãng hàng không Việt Nam"@vi ;
+    vn-ont:abstract "Dưới đây là tổng hợp bao gồm các hãng hàng không đang hoạt động, sắp hoạt động hoặc đã ngừng hoạt động tại Việt Nam:"@vi ;
+    vn-ont:category vn-res:Công_ty_Việt_Nam,
+        vn-res:Danh_sách_công_ty_Việt_Nam,
+        vn-res:Danh_sách_hãng_hàng_không_theo_quốc_gia,
+        vn-res:Hàng_không_Việt_Nam,
+        vn-res:Hãng_hàng_không_Việt_Nam,
+        vn-res:Sơ_khai_hàng_không,
+        vn-res:Tất_cả_bài_viết_sơ_khai ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.482981"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Danh_sách_hãng_hàng_không_Việt_Nam> ] .
+
+vn-res:Danh_sách_ngân_hàng_tại_Việt_Nam a vn-ont:TổChức ;
+    rdfs:label "Danh sách ngân hàng tại Việt Nam"@vi ;
+    vn-ont:abstract "Tại Việt Nam hiện có 38 ngân hàng trong nước, bao gồm Ngân hàng Nhà nước và ngân hàng thương mại cổ phần. Ngoài ra, còn có 2 ngân hàng liên doanh, 8 ngân hàng có 100% vốn đầu tư nước ngoài đang hoạt động độc lập và hơn 50 chi nhánh, hơn 50 văn phòng đại diện ngân hàng nước ngoài tại Việt Nam."@vi ;
+    vn-ont:category vn-res:Bài_có_liên_kết_hỏng,
+        vn-res:Bài_lỗi_thời,
+        vn-res:Bản_mẫu_webarchive_dùng_liên_kết_wayback,
+        vn-res:Công_ty_Việt_Nam,
+        vn-res:Danh_sách_Việt_Nam,
+        vn-res:Danh_sách_công_ty_Việt_Nam,
+        vn-res:Kinh_doanh_ở_Việt_Nam,
+        vn-res:Kiểm_soát_tính_nhất_quán_với_0_yếu_tố,
+        vn-res:Ngân_hàng_Việt_Nam ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.483097"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Danh_sách_ngân_hàng_tại_Việt_Nam> ] .
+
+vn-res:Diệp_Văn_Cương a vn-ont:Người ;
+    rdfs:label "Diệp Văn Cương"@vi ;
+    vn-ont:abstract """Diệp Văn Cương (葉文疆, 1862- 1929), tự Thọ Sơn, hiệu Yên Sa, bút hiệu Cuồng Sĩ; là nhà báo, nhà giáo Việt Nam ở đầu thế kỷ 20. Ông được Vương Hồng Sển xem là nhân vật đại diện nhóm trí thức lúc bấy giờ.
+
+"""@vi ;
+    vn-ont:category vn-res:Bản_mẫu_webarchive_dùng_liên_kết_wayback,
+        vn-res:Họ_Diệp,
+        vn-res:Mất_năm_1929,
+        vn-res:Người_chủ_báo,
+        vn-res:Người_Đồng_Tháp,
+        vn-res:Nhà_báo_Việt_Nam,
+        vn-res:Nhân_vật_lịch_sử_Việt_Nam,
+        vn-res:Sinh_năm_1862 ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.477168"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Diệp_Văn_Cương> ] .
+
+vn-res:Diệp_Văn_Kỳ a vn-ont:Người ;
+    rdfs:label "Diệp Văn Kỳ"@vi ;
+    vn-ont:abstract """Diệp Văn Kỳ (1895 - 1945); là nhà văn, nhà báo trước 1945 tại Việt Nam.
+
+"""@vi ;
+    vn-ont:category vn-res:Bản_mẫu_webarchive_dùng_liên_kết_wayback,
+        vn-res:Họ_Diệp,
+        vn-res:Mất_năm_1945,
+        vn-res:Người_Huế,
+        vn-res:Người_chủ_báo,
+        vn-res:Nhà_báo_Việt_Nam,
+        vn-res:Nhân_vật_lịch_sử_Việt_Nam,
+        vn-res:Sinh_năm_1895 ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.477288"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Diệp_Văn_Kỳ> ] .
+
+vn-res:FE_Credit a vn-ont:TổChức ;
+    rdfs:label "FE Credit"@vi ;
+    vn-ont:abstract "Công ty Tài chính TNHH Ngân hàng Việt Nam Thịnh Vượng SMBC, tên giao dịch tiếng Anh FE Credit, là một công ty tín dụng có vốn điều lệ 7.328 tỷ đồng do Ngân hàng TMCP Việt Nam Thịnh Vượng (VPBank) giữ 51% cổ phần và Công ty Tài chính Tiêu dùng SMBC (thuộc tập đoàn Sumitomo Mitsui Banking Corporation) giữ 49% cổ phần."@vi ;
+    vn-ont:category vn-res:Công_ty_Việt_Nam,
+        vn-res:Sơ_khai,
+        vn-res:Trang_cần_được_biên_tập_lại,
+        vn-res:Tất_cả_bài_viết_sơ_khai ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.483559"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/FE_Credit> ] .
+
+vn-res:FPT_Retail a vn-ont:TổChức ;
+    rdfs:label "FPT Retail"@vi ;
+    vn-ont:abstract """Công ty Cổ phần Bán lẻ Kỹ thuật số FPT (tiếng Anh: FPT Digital Retail Joint Stock Company), gọi tắt là FPT Retail được thành lập từ năm 2012 tại Việt Nam, là một thành viên của Tập đoàn FPT. Hiện nay, FPT Retail đang sở hữu 2 chuỗi bán lẻ là FPT Shop và F.Studio By FPT với tổng số hơn 630 cửa hàng trên khắp 63 tỉnh thành và 1 công ty con là FPT Pharma. Đội ngũ nhân viên hiện là 6.000 người. Ngày 26/4/2018, cổ phiếu của FPT Retail chính thức niêm yết trên Sàn Giao dịch Chứng Khoán Thành phố Hồ Chí Minh (HoSE) với mã FRT.
+Hệ thống bán lẻ FPT Shop: là chuỗi chuyên bán lẻ các sản phẩm kỹ thuật số di động bao gồm điện thoại di động, máy tính bảng, laptop, phụ kiện và dịch vụ công nghệ... FPT Shop là hệ thống bán lẻ đầu tiên ở Việt Nam được cấp chứng chỉ ISO 9001:2000 về quản lý chất lượng theo tiêu chuẩn quốc tế.
+Hệ thống F.Studio By FPT: là chuỗi cửa hàng được ủy quyền chính thức của Apple tại Việt Nam, chuyên kinh doanh các sản phẩm chính hãng của Apple. FPT Retail là công ty đầu tiên có chuỗi bán lẻ với mô hình cửa hàng chuẩn của Apple, bao gồm: AAR (Apple Authorised Reseller) và iCorner.
+FPT Pharma (thành lập ngày 13/9/2018): sở hữu chuỗi Nhà thuốc Long Châu chuyên kinh doanh dược phẩm, dụng cụ y khoa, thực phẩm chức năng chính hãng.
+Năm 2019, FPT Retail đạt doanh thu 16,634 tỉ đồng, tăng 9% so với năm 2018. Doanh thu online đạt mức 3,899 tỷ đồng, tăng trưởng 60% so với năm 2018 và chiếm tỷ trọng 23.4% tổng doanh thu của công ty. Lợi nhuận trước thuế đạt 278 tỷ đồng, giảm 36% so với năm 2018."""@vi ;
+    vn-ont:category vn-res:Bài_có_liên_kết_hỏng,
+        vn-res:Bài_viết_có_trích_dẫn_không_khớp,
+        vn-res:Bài_viết_có_văn_bản_tiếng_Anh,
+        vn-res:Công_ty_Việt_Nam,
+        vn-res:Công_ty_cổ_phần_Việt_Nam,
+        vn-res:Kinh_tế_Thành_phố_Hồ_Chí_Minh,
+        vn-res:Lỗi_CS1_tên_chung,
+        vn-res:Pages_using_deprecated_image_syntax,
+        vn-res:Trang_thiếu_chú_thích_trong_bài,
+        vn-res:Tập_đoàn_FPT ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.483813"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/FPT_Retail> ] .
+
+vn-res:FPT_Shop a vn-ont:TổChức ;
+    rdfs:label "FPT Shop"@vi ;
+    vn-ont:abstract """FPT Shop là thương hiệu thuộc Công ty Cổ Phần Bán Lẻ Kỹ Thuật Số FPT (gọi tắt là FPT Retail, mã chứng Khoán: FRT). Được thành lập vào tháng 8/2007, FPT Shop là chuỗi cửa hàng bán lẻ chuyên về các sản phẩm kỹ thuật số như Điện thoại di động, Máy tính bảng, Máy tính xách tay và phụ kiện điện tử...
+FPT Shop là hệ thống bán lẻ đầu tiên ở Việt Nam được cấp chứng chỉ ISO 9001:2000 về quản lý chất lượng theo tiêu chuẩn quốc tế. Hiện nay, FPT Shop là chuỗi bán lẻ lớn thứ 2 trên thị trường bán lẻ hàng công nghệ."""@vi ;
+    vn-ont:category vn-res:Công_ty_Việt_Nam,
+        vn-res:Công_ty_cổ_phần_Việt_Nam,
+        vn-res:Kinh_tế_Thành_phố_Hồ_Chí_Minh,
+        vn-res:Lỗi_CS1_tên_chung,
+        vn-res:Pages_using_deprecated_image_syntax ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.483904"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/FPT_Shop> ] .
+
+vn-res:Formosa_Vũng_Áng a vn-ont:TổChức ;
+    rdfs:label "Formosa Vũng Áng"@vi ;
+    vn-ont:abstract """Formosa Vũng Áng  là một công ty nằm trong khu kinh tế Vũng Áng, Hà Tĩnh. Formosa có tên chính thức là Công ty TNHH gang thép Hưng Nghiệp Formosa Hà Tĩnh (FHS), chi nhánh của Tập đoàn nhựa Formosa, Đài Loan.
+Formosa là chủ đầu tư dự án khu liên hợp gang thép và cảng nước sâu Sơn Dương bắt đầu từ năm 2008 với tổng vốn đầu tư gần 10 tỷ USD (công suất hơn 10 triệu tấn/năm ở giai đoạn I) và đang có kế hoạch tăng vốn lên 27 tỷ USD (20 triệu tấn/năm ở giai đoạn II).
+Tổng diện tích thực hiện dự án hơn 3.300ha, bao gồm diện tích đất liền hơn 2.025ha và diện tích mặt nước hơn 1.293ha (cảng Sơn Dương) . Thời gian thuê đất là 70 năm, tiền thuê đất hơn 96 tỷ đồng cho toàn bộ thời gian thuê.
+
+FHS đăng ký kinh doanh 11 ngành nghề, một số ngành nghề quan trọng như: chế tạo và mua bán gang thép; kinh doanh cảng; sản xuất ximăng; kinh doanh nhà máy nhiệt điện và nhà máy xử lý nước; xây dựng, lắp đặt, vận hành và kinh doanh nhà máy khí, bán các khí nén và các khí chất lỏng sử dụng trong công nghiệp như oxy, nitơ...; chế tạo, gia công, sản xuất, mua bán và xuất nhập khẩu các sản phẩm liên quan quá trình luyện than cốc, hắc ín, dầu thô nhẹ, và kinh doanh bất động sản."""@vi ;
+    vn-ont:category vn-res:Bài_có_liên_kết_hỏng,
+        vn-res:Bản_mẫu_webarchive_dùng_liên_kết_wayback,
+        vn-res:Công_ty_Việt_Nam,
+        vn-res:Công_ty_Việt_Nam_thành_lập_năm_2008,
+        vn-res:Công_ty_thép_Việt_Nam,
+        vn-res:Công_ty_Đài_Loan,
+        vn-res:Hà_Tĩnh,
+        vn-res:Kinh_tế_Việt_Nam,
+        vn-res:Lỗi_CS1_URL,
+        vn-res:Lỗi_CS1_liên_kết_ngoài ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.483684"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Formosa_Vũng_Áng> ] .
+
+vn-res:HD_SAISON a vn-ont:TổChức ;
+    rdfs:label "HD SAISON"@vi ;
+    vn-ont:abstract "Công ty Tài chính Trách nhiệm hữu hạn HD SAISON (gọi tắt là HD SAISON) là một công ty tài chính liên doanh giữa Ngân hàng Phát triển TPHCM (HDBank) và tập đoàn tài chính Nhật Bản Credit Saison. Tính đến tháng 12 năm 2018, HD SAISON là một trong 3 công ty tài chính tín chấp hàng đầu Việt Nam."@vi ;
+    vn-ont:category vn-res:Bài_có_liên_kết_hỏng,
+        vn-res:Bài_viết_có_trích_dẫn_không_khớp,
+        vn-res:Công_ty_Việt_Nam,
+        vn-res:Công_ty_dịch_vụ_tài_chính,
+        vn-res:HDBank,
+        vn-res:Pages_using_deprecated_image_syntax,
+        vn-res:Sơ_khai_công_ty_Việt_Nam,
+        vn-res:Tất_cả_bài_viết_sơ_khai ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.484024"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/HD_SAISON> ] .
+
+vn-res:Lazada_Việt_Nam a vn-ont:TổChức ;
+    rdfs:label "Lazada Việt Nam"@vi ;
+    vn-ont:abstract """Lazada Việt Nam là một sàn giao dịch thương mại điện tử, là một phần của Lazada Group – tập đoàn thương mại điện tử đa quốc gia và hiện đang có chi nhánh tại Indonesia, Philippines, Singapore, Thái Lan và Malaysia. Tập đoàn Lazada hiện thuộc sở hữu của tập đoàn Alibaba.
+Lazada được điều hành bởi giám đốc kiêm nhà sáng lập người Đức Maximilian Bittner. Sau đó, tập đoàn Alibaba của tỷ phú người Trung Quốc Jack Ma mua lại và hoàn tất thương vụ vào đầu năm 2016."""@vi ;
+    vn-ont:category vn-res:Bài_viết_có_trích_dẫn_không_khớp,
+        vn-res:Công_ty_Việt_Nam,
+        vn-res:Nguồn_CS1_tiếng_Anh_en,
+        vn-res:Thương_mại_điện_tử ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.484242"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Lazada_Việt_Nam> ] .
+
+vn-res:Lê_Bôi a vn-ont:Người ;
+    rdfs:label "Lê Bôi"@vi ;
+    vn-ont:abstract """Lê Bôi (1380-?), tên thật là Phạm Bôi, người làng Địa Linh, nay thuộc làng Đông Linh, xã An Bài, huyện Quỳnh Phụ, tỉnh Thái Bình nhưng sinh ra và lớn lên tại xã Tình Di, huyện Đỗ Gia, nay là xã Sơn Diệm, huyện Hương Sơn, tỉnh Hà Tĩnh trong một gia đình khoa bảng, là khai quốc công thần nhà Lê sơ trong lịch sử Việt Nam. Ông góp công lớn trong khởi nghĩa Lam Sơn.
+
+"""@vi ;
+    vn-ont:category vn-res:Bài_viết_có_trích_dẫn_không_khớp,
+        vn-res:Chưa_rõ_năm_sinh,
+        vn-res:Công_thần_khai_quốc_nhà_Lê_sơ,
+        vn-res:Khởi_nghĩa_Lam_Sơn,
+        vn-res:Người_tham_gia_Khởi_nghĩa_Lam_Sơn_14181427,
+        vn-res:Nhân_vật_lịch_sử_Việt_Nam,
+        vn-res:Năm_mất_không_rõ,
+        vn-res:Sinh_năm_1380,
+        vn-res:Tất_cả_bài_viết_cần_được_wiki_hóa,
+        vn-res:Võ_tướng_nhà_Lê_sơ ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.477964"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Lê_Bôi> ] .
+
+vn-res:Lê_Trọng_Nghĩa a vn-ont:Người ;
+    rdfs:label "Lê Trọng Nghĩa"@vi ;
+    vn-ont:abstract """Lê Trọng Nghĩa (1922 – 22 tháng 2 năm 2015) là đại biểu Quốc hội khóa I, sĩ quan Quân đội nhân dân Việt Nam, hàm Đại tá, nguyên Chánh văn phòng Quân ủy Trung ương, Bộ Quốc phòng và Cục trưởng Cục Quân báo, Bộ Tổng Tham mưu (1960-1962), nguyên thư ký của Đại tướng Võ Nguyên Giáp. Tháng 2/1968, ông bị an ninh bắt vì cho là có liên quan đến "nhóm Xét lại", ông bị giam và cải tạo lao động từ năm 1968 đến 1976.
+
+"""@vi ;
+    vn-ont:category vn-res:Lỗi_CS1_ngày_tháng,
+        vn-res:Mất_năm_2015,
+        vn-res:Nhân_vật_lịch_sử_Việt_Nam,
+        vn-res:Nhân_vật_trong_Vụ_án_Xét_lại_Chống_Đảng,
+        vn-res:Sinh_năm_1922,
+        vn-res:Trang_có_sử_dụng_tập_tin_không_tồn_tại,
+        vn-res:Tổng_cục_trưởng_Tổng_cục_II,
+        vn-res:Tổng_cục_trưởng_Tổng_cục_Tình_báo_Quân_đội_nhân_dân_Việt_Nam,
+        vn-res:Đại_biểu_Quốc_hội_Việt_Nam_khóa_I,
+        vn-res:Đại_tá_Quân_đội_nhân_dân_Việt_Nam ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.478108"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Lê_Trọng_Nghĩa> ] .
+
+vn-res:Lý_Quốc_Sư a vn-ont:Người ;
+    rdfs:label "Lý Quốc Sư"@vi ;
+    vn-ont:abstract """Lý Quốc Sư (chữ Hán: 李國師 15 tháng 10 năm 1065 –19 tháng 11 năm 1141) là tên gọi theo quốc tính họ Vua do nhà Lý ban cho và ghép với chức danh pháp lý cao nhất của một vị thiền sư từng là dược sư, pháp sư, đại sư rồi quốc sư tên hiệu Nguyễn Minh Không (chữ Hán: 阮明空). Đạo hiệu Phù Vân quảng đạt đại pháp sư, người dân ở quê hương Ninh Bình thường gọi ông là Đức Thánh Nguyễn (德聖阮).
+Ông là một vị cao tăng đứng đầu tổ chức Phật giáo của triều đại nhà Lý trong lịch sử, là vị thiền sư sáng lập nên nhiều ngôi chùa nhất ở Việt Nam, được tôn vinh là ông tổ nghề đúc đồng và cũng là ông tổ nghề Đông y Việt Nam.
+Vì có nhiều công lớn chữa bệnh cho vua và nhân dân mà ông cùng với Trần Hưng Đạo, là những nhân vật lịch sử có thật, sau này được người Việt tôn sùng là Đức Thánh Nguyễn, Đức Thánh Trần và ông được hậu thế thờ ở rất nhiều đền, đình, và cả trong chùa theo kiểu tiền Phật hậu Thánh. Một số ghi chép xưa xếp ông là vị thánh trong tứ bất tử. Trong truyền thuyết dân gian, Nguyễn Minh Không là một nhân vật huyền thoại, xuất hiện với nhiều tình tiết kỳ bí thậm chí hoang đường, như khi tu thiền đắc đạo có thể đi mây về gió, niệm chú cho chim lạ rơi xuống đất, ngả nón làm thuyền vượt sông cả, cho cả kho đồng nước Tống vào túi đem về đúc Tứ Đại khí, thò tay vào vạc dầu đang sôi vớt hàng trăm chiếc kim chữa bệnh cho vua Lý Thần Tông. Hiện nay ở vùng châu thổ sông Hồng có rất nhiều nơi còn đền thờ ông như ở Ninh Bình, Bắc Ninh, Hà Nội, Hải Phòng, Quảng Ninh, Hưng Yên.
+
+"""@vi ;
+    vn-ont:category vn-res:Bài_có_liên_kết_hỏng,
+        vn-res:Bác_sĩ_Việt_Nam,
+        vn-res:Bản_mẫu_webarchive_dùng_liên_kết_wayback,
+        vn-res:Người_Ninh_Bình,
+        vn-res:Người_họ_Nguyễn_tại_Việt_Nam,
+        vn-res:Nhân_vật_lịch_sử_Việt_Nam,
+        vn-res:Nhân_vật_thời_Lý,
+        vn-res:Nhân_vật_truyền_thuyết_Việt_Nam,
+        vn-res:Sinh_tại_Ninh_Bình,
+        vn-res:Thiền_phái_Tì-ni-đa-lưu-chi ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.478237"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Lý_Quốc_Sư> ] .
+
+vn-res:Lý_Thúc_Hiến a vn-ont:Người ;
+    rdfs:label "Lý Thúc Hiến"@vi ;
+    vn-ont:abstract """Lý Thúc Hiến (chữ Hán: 李叔獻, ? - 500?) là một thủ lĩnh địa phương, cát cứ Giao Châu, tự trị với chính quyền phong kiến phương Bắc trong lịch sử Việt Nam thời Bắc thuộc lần 2.
+
+"""@vi ;
+    vn-ont:category vn-res:Khởi_nghĩa_Việt_Nam_thời_Bắc_thuộc_lần_2,
+        vn-res:Nhân_vật_lịch_sử_Việt_Nam,
+        vn-res:Tướng_nhà_Nam_Tề ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.478319"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Lý_Thúc_Hiến> ] .
+
+vn-res:Lý_Tự_Tiên a vn-ont:Người ;
+    rdfs:label "Lý Tự Tiên"@vi ;
+    vn-ont:abstract """Lý Tự Tiên (李嗣先, ?-687) là thủ lĩnh cuộc khởi nghĩa tại An Nam chống lại sự đô hộ của nhà Đường năm 687.
+
+"""@vi ;
+    vn-ont:category vn-res:Bài_có_hộp_thông_tin_có_tham_số_title,
+        vn-res:Khởi_nghĩa_Việt_Nam_thời_Bắc_thuộc_lần_3,
+        vn-res:Mất_năm_687,
+        vn-res:Nhân_vật_lịch_sử_Việt_Nam,
+        vn-res:Nhân_vật_quân_sự_nhà_Đường,
+        vn-res:Năm_sinh_thiếu,
+        vn-res:Sơ_khai_nhân_vật_Việt_Nam,
+        vn-res:Tất_cả_bài_viết_sơ_khai ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.478448"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Lý_Tự_Tiên> ] .
+
+vn-res:Nam_Hải_công_ty a vn-ont:TổChức ;
+    rdfs:label "Nam Hải (công ty)"@vi ;
+    vn-ont:abstract "Công ty TNHH Nghệ Thuật Nam Hải (hay Nam Hải Art) là công ty thiết kế đồ họa, vẽ phối cảnh 2D, model và texture 3D có trụ sở chính tại quận Tân Bình, Thành phố Hồ Chí Minh, Việt Nam. Công ty là đơn vị tham gia đồng sản xuất cho một số bộ anime nổi tiếng như Đứa con của thời tiết, Attack on Titan, Assassination Classroom (mùa 2), Date A Live (mùa 1, 2, 4), Khi ve sầu khóc (remake), Tokyo Revengers, Đảo Hải Tặc, Thám tử lừng danh Conan..., BanG Dream! (TV 2, TV 3), DARLING in the FRANXX,..."@vi ;
+    vn-ont:category vn-res:Anime,
+        vn-res:Công_ty_Việt_Nam,
+        vn-res:Công_ty_thành_lập_năm_2011,
+        vn-res:Nguồn_CS1_tiếng_Anh_en,
+        vn-res:Quản_lý_CS1_bot_trạng_thái_URL_ban_đầu_không_rõ,
+        vn-res:Sơ_khai,
+        vn-res:Tất_cả_bài_viết_sơ_khai,
+        vn-res:Xưởng_phim_hoạt_hình ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.484559"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Nam_Hải_(công_ty)> ] .
+
+vn-res:NetNam a vn-ont:TổChức ;
+    rdfs:label "NetNam"@vi ;
+    vn-ont:abstract """NetNam (Tên đầy đủ: Công ty Cổ phần NetNam) là công ty tiên phong về lĩnh vực Internet ở Việt Nam (từ 1994). 
+NetNam cung cấp dịch vụ Internet và giải pháp mạng cho các đối tượng khách hàng bao gồm: khách sạn 5 sao, căn hộ cao cấp, khu nghỉ dưỡng, các tổ chức chính phủ và phi chính phủ, tập đoàn đa quốc gia, doanh nghiệp đầu tư trực tiếp nước ngoài (FDI), tổ chức công nghệ thông tin (IT), doanh nghiệp vừa và nhỏ (SME), các tổ chức tài chính - ngân hàng và các cơ sở giáo dục quốc tế."""@vi ;
+    vn-ont:category vn-res:Bản_mẫu_webarchive_dùng_liên_kết_wayback,
+        vn-res:Công_ty_Việt_Nam,
+        vn-res:Công_ty_công_nghệ_Internet,
+        vn-res:Trang_thiếu_chú_thích_trong_bài ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.484651"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/NetNam> ] .
+
+vn-res:Nhà_máy_Phân_đạm_Hà_Bắc a vn-ont:TổChức ;
+    rdfs:label "Nhà máy Phân đạm Hà Bắc"@vi ;
+    vn-ont:abstract """Công ty TNHH MTV Phân đạm và Hóa chất Hà Bắc, nguyên là nhà máy sản xuất phân đạm đầu tiên của Việt Nam mang tên Nhà máy phân đạm Hà Bắc và nay là Công ty trách nhiệm hữu hạn một thành viên Phân đạm và Hóa chất Hà Bắc, là một thành viên trực thuộc Tổng Công ty Hóa chất Việt Nam. Trụ sở công ty tại phường Thọ Xương, thành phố Bắc Giang, tỉnh Bắc Giang.
+Công ty TNHH một thành viên Phân đạm và Hóa chất Hà Bắc chịu sự quản lý của Nhà nước, trực tiếp là Bộ Công Thương (trước đây là Bộ Công nghiệp Nặng)."""@vi ;
+    vn-ont:category vn-res:Bản_mẫu_webarchive_dùng_liên_kết_wayback,
+        vn-res:Công_ty_Việt_Nam ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.484723"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Nhà_máy_Phân_đạm_Hà_Bắc> ] .
+
+vn-res:Nhà_thuốc_Long_Châu a vn-ont:TổChức ;
+    rdfs:label "Nhà thuốc Long Châu"@vi ;
+    vn-ont:abstract "Nhà thuốc Long Châu là thương hiệu trực thuộc Công ty cổ phần bán lẻ kỹ thuật số FPT – thành viên Tập đoàn FPT, hệ thống Nhà thuốc Long Châu là một trong những chuỗi bán lẻ dược phẩm  tại Việt Nam."@vi ;
+    vn-ont:category vn-res:Bài_viết_Wikipedia_cần_chỉnh_sửa_chính_tả,
+        vn-res:Bài_viết_có_trích_dẫn_không_khớp,
+        vn-res:Công_ty_Việt_Nam,
+        vn-res:Công_ty_cổ_phần_Việt_Nam,
+        vn-res:Kinh_tế_Thành_phố_Hồ_Chí_Minh,
+        vn-res:Pages_using_deprecated_image_syntax,
+        vn-res:Trang_có_sử_dụng_tập_tin_không_tồn_tại,
+        vn-res:Tất_cả_bài_viết_cần_được_wiki_hóa ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.484845"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Nhà_thuốc_Long_Châu> ] .
+
+vn-res:Nhà_xuất_bản_Nông_nghiệp a vn-ont:TổChức ;
+    rdfs:label "Nhà xuất bản Nông nghiệp"@vi ;
+    vn-ont:abstract "Nhà xuất bản Nông nghiệp là một nhà xuất bản tại Việt Nam, chuyên xuất bản sách cho đối tượng độc giả là nông dân và cán bộ ngành nông nghiệp."@vi ;
+    vn-ont:category vn-res:Công_ty_Việt_Nam,
+        vn-res:Nhà_xuất_bản_Việt_Nam,
+        vn-res:Tổ_chức_trực_thuộc_Bộ_nông_nghiệp_và_phát_triển_nông_thôn_Việt_Nam ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.484925"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Nhà_xuất_bản_Nông_nghiệp> ] .
+
+vn-res:Pacific_Airlines a vn-ont:TổChức ;
+    rdfs:label "Pacific Airlines"@vi ;
+    vn-ont:abstract """Công ty Cổ phần Hàng không Pacific Airlines (Pacific Airlines Joint Stock Aviation Company), trước đây hoạt động với tên gọi Jetstar Pacific, là hãng hàng không giá rẻ đầu tiên của Việt Nam, có trụ sở tại Sân bay quốc tế Tân Sơn Nhất (SGN), Thành phố Hồ Chí Minh, Việt Nam. Với tiêu chí hoạt động là cung cấp vé máy bay giá rẻ mỗi ngày, hiện Pacific Airlines điều hành các dịch vụ bay chở hành khách và hàng hoá tới các điểm đến nội địa của Việt Nam bằng đội bay Airbus A320 - 180 ghế. Hãng có cổ đông chính là Hãng hàng không quốc gia Việt Nam - Vietnam Airlines chiếm 98.84% cổ phần sau khi cổ đông cũ Qantas thoái vốn.
+Ngày 31/7/2020, Pacific Airlines chính thức ra mắt đồng phục tiếp viên và bộ nhận diện thương hiệu mới sau khi đổi tên và hệ thống đặt chỗ, bán vé theo thỏa thuận ngừng hợp đồng nhượng quyền thương hiệu và sử dụng hệ thống chung với Jetstar Group.
+Việc đổi mới này đã được hai cổ đông chính là Vietnam Airlines và Tập đoàn Qantas (Úc) thông qua nhằm cải thiện hoạt động sản xuất kinh doanh và khả năng lợi nhuận của Pacific Airlines, góp phần thúc đẩy quy mô và sức mạnh thương hiệu của Vietnam Airlines Group tại thị trường nội địa và trong khu vực.
+Theo đó, toàn bộ tiếp viên của Pacific Airlines đã xuất hiện trong bộ đồng phục mới được thiết kế theo phong cách trẻ trung, hiện đại nhưng vẫn giữ nét thanh lịch của văn hóa Á Đông. Tông màu chủ đạo của đồng phục tiếp viên và bộ nhận diện thương hiệu mới được Hãng lấy cảm hứng từ màu sắc của Vietnam Airlines nhằm tạo sự kết nối trong hệ sinh thái hàng không của Vietnam Airlines Group. Trong đó, màu xanh mang đến cảm giác an toàn, bền vững và màu cam đại diện cho tinh thần trẻ trung, tràn đầy năng lượng.
+Biểu tượng của Pacific Airlines được cách điệu từ ba cánh đuôi máy bay có bố cục sắp xếp theo kích thước lớn dần, ẩn dụ cho nỗ lực phát triển không ngừng của Hãng trên nền tảng khai thác an toàn trong gần 30 năm qua. Với thông điệp "Niềm vui cất cánh", Pacific Airlines hứa hẹn mỗi chuyến bay là một niềm vui ngay từ bước đầu tiên của hành trình, khi máy bay vút lên bầu trời."""@vi ;
+    vn-ont:category vn-res:Bản_mẫu_webarchive_dùng_liên_kết_wayback,
+        vn-res:Công_ty_Việt_Nam,
+        vn-res:Công_ty_có_trụ_sở_tại_Thành_phố_Hồ_Chí_Minh,
+        vn-res:Hãng_hàng_không_Việt_Nam,
+        vn-res:Hãng_hàng_không_giá_rẻ,
+        vn-res:Hãng_hàng_không_thành_lập_năm_1991,
+        vn-res:Khởi_đầu_năm_1990_ở_Việt_Nam,
+        vn-res:Nhãn_hiệu_Việt_Nam,
+        vn-res:Qantas ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.485058"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Pacific_Airlines> ] .
+
+vn-res:Phùng_An a vn-ont:Người ;
+    rdfs:label "Phùng An"@vi ;
+    vn-ont:abstract """Phùng An là vua Việt Nam trong thời thuộc Đường đầu thế kỷ thứ 9.
+
+"""@vi ;
+    vn-ont:category vn-res:Khởi_nghĩa,
+        vn-res:Khởi_nghĩa_Việt_Nam_thời_Bắc_thuộc_lần_3,
+        vn-res:Người_Hà_Nội,
+        vn-res:Nhân_vật_lịch_sử_Việt_Nam,
+        vn-res:Nhân_vật_quân_sự_nhà_Đường,
+        vn-res:Sơ_khai_nhân_vật_hoàng_gia_Việt_Nam,
+        vn-res:Trang_thiếu_chú_thích_trong_bài,
+        vn-res:Tất_cả_bài_viết_sơ_khai,
+        vn-res:Vua_Việt_Nam ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.478698"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Phùng_An> ] .
+
+vn-res:Phùng_Khắc_Khoan a vn-ont:Người ;
+    rdfs:label "Phùng Khắc Khoan"@vi ;
+    vn-ont:abstract """Phùng Khắc Khoan (chữ Hán: 馮克寬；1528-1613), tự là Hoằng Phu, hiệu là Nghị Trai, Mai Nham Tử, tục gọi là Trạng Bùng (mặc dù chỉ đỗ Nhị giáp tiến sĩ, tức Hoàng giáp); là quan nhà Lê trung hưng và là nhà thơ Việt Nam.
+
+"""@vi ;
+    vn-ont:category vn-res:Bài_có_liên_kết_hỏng,
+        vn-res:Bài_viết_chứa_nhận_dạng_GND,
+        vn-res:Bài_viết_chứa_nhận_dạng_ISNI,
+        vn-res:Bài_viết_chứa_nhận_dạng_LCCN,
+        vn-res:Bài_viết_chứa_nhận_dạng_SUDOC,
+        vn-res:Bài_viết_chứa_nhận_dạng_VIAF,
+        vn-res:Bản_mẫu_webarchive_dùng_liên_kết_wayback,
+        vn-res:Công_tước_nhà_Lê_trung_hưng,
+        vn-res:Hoàng_giáp_Việt_Nam,
+        vn-res:Không_có_hình_ảnh_địa_phương_nhưng_hình_ảnh_về_Wikidata ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.478829"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Phùng_Khắc_Khoan> ] .
+
+vn-res:Phạm_Khắc_Hòe a vn-ont:Người ;
+    rdfs:label "Phạm Khắc Hòe"@vi ;
+    vn-ont:abstract """Phạm Khắc Hòe (1901-1995) là một luật sư, nhà văn, Đổng lý Ngự tiền văn phòng triều Bảo Đại - vua cuối cùng thời phong kiến trong lịch sử Việt Nam.
+
+"""@vi ;
+    vn-ont:category vn-res:Bài_có_liên_kết_hỏng,
+        vn-res:Bản_mẫu_webarchive_dùng_liên_kết_wayback,
+        vn-res:Bộ_Nội_vụ_Việt_Nam,
+        vn-res:Huân_chương_Độc_lập,
+        vn-res:Huân_chương_Độc_lập_hạng_Nhất,
+        vn-res:Mất_năm_1995,
+        vn-res:Người_Hà_Tĩnh,
+        vn-res:Nhà_văn_Việt_Nam_thời_kỳ_từ_1976,
+        vn-res:Nhân_vật_lịch_sử_Việt_Nam,
+        vn-res:Quan_lại_nhà_Nguyễn ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.478576"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Phạm_Khắc_Hòe> ] .
+
+vn-res:Quilling_Card_công_ty a vn-ont:TổChức ;
+    rdfs:label "Quilling Card (công ty)"@vi ;
+    vn-ont:abstract "Quilling Card, LLC. là một doanh nghiệp tư nhân tại Hoa Kỳ và Việt Nam chuyên kinh doanh và sản xuất các sản phẩm làm từ giấy xoắn. Công ty do doanh nhân Hương Wolf và chồng thành lập năm 2012 tại Triển lãm Văn phòng phẩm Quốc gia Hoa Kỳ. Với 500 nhân công gồm những nghệ nhân khiếm thính, công ty hiện là nhà cung cấp thiệp giấy xoắn hàng đầu thế giới với lượng khách hàng trải dài trên nhiều quốc gia như Mỹ, Canada, Úc, Nhật Bản, Trung Quốc, Pháp, Anh và Chile. Quilling Card đang nắm giữ hai kỷ lục Guinness thế giới về \"bức tranh giấy xoắn lớn nhất thế giới\" và \"số lượng người cùng làm thiệp giấy xoắn thủ công trong cùng một thời điểm nhiều nhất thế giới\" cho bản sao của bức họa Đêm đầy sao của Vincent Van Gogh."@vi ;
+    vn-ont:category vn-res:Công_ty_Mỹ,
+        vn-res:Công_ty_Việt_Nam,
+        vn-res:Công_ty_thành_lập_năm_2012,
+        vn-res:Nguồn_CS1_tiếng_Anh_en ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.485164"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Quilling_Card_(công_ty)> ] .
+
+vn-res:Suntory_PepsiCo_Việt_Nam a vn-ont:TổChức ;
+    rdfs:label "Suntory PepsiCo Việt Nam"@vi ;
+    vn-ont:abstract """Suntory PepsiCo Việt Nam (tên tiếng Anh: Suntory PepsiCo Vietnam Beverage Company) là một công ty nước giải khát tại Việt Nam.
+Suntory PepsiCo Việt Nam được thành lập vào tháng 4 năm 2013, là liên doanh giữa PepsiCo Việt Nam và tập đoàn nước giải khát Suntory Holdings Limited.
+Chính thức gia nhập vào thị trường Việt Nam vào năm 1995, thông qua hình thức liên minh chiến lược và có tên gọi chính thức là Suntory Pepsico, trải qua gần 25 năm hình thành và phát triển, đến nay Pepsi đã trở thành một trong số những thương hiệu dẫn đầu thị trường công nghiệp nước giải khát."""@vi ;
+    vn-ont:category vn-res:Bài_viết_có_chú_thích_không_đầy_đủ,
+        vn-res:Công_ty_Việt_Nam,
+        vn-res:Lỗi_CS1_liên_kết_ngoài,
+        vn-res:Sơ_khai_công_ty,
+        vn-res:Trang_cần_được_biên_tập_lại,
+        vn-res:Tất_cả_bài_viết_sơ_khai ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.485262"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Suntory_PepsiCo_Việt_Nam> ] .
+
+vn-res:Thi_Sách a vn-ont:Người ;
+    rdfs:label "Thi Sách"@vi ;
+    vn-ont:abstract """Thi Sách (chữ Hán: 詩索, ? - 15 tháng 1 năm 40) hay Thi (tiếng Trung: 詩), là một nhân vật chính trị thời kỳ Bắc thuộc trong lịch sử Việt Nam. Ông được biết đến là chồng của Trưng Trắc, vị nữ thủ lĩnh ở Lĩnh Nam đã nổi dậy đánh lại Thái thú Tô Định và lên ngôi nữ vương trong một thời gian ngắn, trước khi bị Phục Ba tướng quân Mã Viện đánh bại.
+
+"""@vi ;
+    vn-ont:category vn-res:Bài_viết_có_văn_bản_tiếng_Trung_Quốc,
+        vn-res:Bản_mẫu_webarchive_dùng_liên_kết_wayback,
+        vn-res:Hai_Bà_Trưng,
+        vn-res:Khởi_nghĩa_Việt_Nam_thời_Bắc_thuộc_lần_1,
+        vn-res:Lịch_sử_Việt_Nam_thời_Hai_Bà_Trưng,
+        vn-res:Mất_năm_39,
+        vn-res:Người_Hà_Nội,
+        vn-res:Nhân_vật_lịch_sử_Việt_Nam,
+        vn-res:Sinh_năm_13 ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.478972"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Thi_Sách> ] .
+
+vn-res:Thành_viênMarkLee2411Nháp a vn-ont:TổChức ;
+    rdfs:label "Thành viên:MarkLee2411/Nháp"@vi ;
+    vn-ont:abstract """Công ty cổ phần Vinpearl là doanh nghiệp hoạt động trong lĩnh vực du lịch, nghỉ dưỡng và giải trí tại Việt Nam, thành lập ngày 25 tháng 7 năm 2001. Đây là đơn vị thành viên thuộc Tập đoàn Vingroup, trụ sở chính đặt tại đảo Hòn Tre, thành phố Nha Trang. 
+Vinpearl là đơn vị chủ quản các hệ sinh thái nghỉ dưỡng – vui chơi giải trí như Vinpearl Hotels & Resorts, VinWonders, Vinpearl Golf, Vinpearl Safari và các thương hiệu liên quan. Đến năm 2024, Vinpearl vận hành 31 cơ sở lưu trú tại 18 tỉnh thành, với hơn 16.000 phòng."""@vi ;
+    vn-ont:category vn-res:Công_ty_Việt_Nam,
+        vn-res:Du_lịch_Việt_Nam,
+        vn-res:Khách_sạn_Việt_Nam,
+        vn-res:Khởi_đầu_năm_2001_tại_Việt_Nam,
+        vn-res:Thương_hiệu_Việt_Nam,
+        vn-res:Tập_đoàn_Vingroup ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.484443"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Thành_viên:MarkLee2411/Nháp> ] .
+
+vn-res:Thể_loạiAnh_hùng_dân_tộc_Việt_Nam a vn-ont:Người ;
+    rdfs:label "Thể loại:Anh hùng dân tộc Việt Nam"@vi ;
+    vn-ont:category vn-res:Anh_hùng_dân_tộc,
+        vn-res:Nhân_vật_lịch_sử_Việt_Nam ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.479145"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Thể_loại:Anh_hùng_dân_tộc_Việt_Nam> ] .
+
+vn-res:Thể_loạiHoàng_tộc_Việt_Nam a vn-ont:Người ;
+    rdfs:label "Thể loại:Hoàng tộc Việt Nam"@vi ;
+    vn-ont:category vn-res:Hoàng_tộc_châu_Á,
+        vn-res:Hoàng_tộc_theo_quốc_gia,
+        vn-res:Lịch_sử_Việt_Nam,
+        vn-res:Người_Việt_Nam,
+        vn-res:Nhân_vật_lịch_sử_Việt_Nam,
+        vn-res:Quân_chủ_Việt_Nam ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.479235"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Thể_loại:Hoàng_tộc_Việt_Nam> ] .
+
+vn-res:Thể_loạiNhân_vật_quân_sự_Việt_Nam a vn-ont:Người ;
+    rdfs:label "Thể loại:Nhân vật quân sự Việt Nam"@vi ;
+    vn-ont:category vn-res:Người_Việt_Nam_theo_nghề_nghiệp,
+        vn-res:Nhà_quân_sự,
+        vn-res:Nhân_vật_lịch_sử_Việt_Nam,
+        vn-res:Quân_sự_Việt_Nam ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.479320"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Thể_loại:Nhân_vật_quân_sự_Việt_Nam> ] .
+
+vn-res:Thể_loạiQuan_chức_phong_kiến_Việt_Nam a vn-ont:Người ;
+    rdfs:label "Thể loại:Quan chức phong kiến Việt Nam"@vi ;
+    vn-ont:category vn-res:Chức_quan_phong_kiến,
+        vn-res:Nhân_vật_chính_trị_Việt_Nam,
+        vn-res:Nhân_vật_lịch_sử_Việt_Nam ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.479400"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Thể_loại:Quan_chức_phong_kiến_Việt_Nam> ] .
+
+vn-res:Thể_loạiThái_thú_Giao_Chỉ a vn-ont:Người ;
+    rdfs:label "Thể loại:Thái thú Giao Chỉ"@vi ;
+    vn-ont:category vn-res:Lịch_sử_Việt_Nam_thời_Bắc_thuộc_lần_2,
+        vn-res:Nhân_vật_lịch_sử_Việt_Nam,
+        vn-res:Quan_chế_Trung_Quốc ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.479473"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Thể_loại:Thái_thú_Giao_Chỉ> ] .
+
+vn-res:Thể_loạiThánh_Công_giáo_Việt_Nam a vn-ont:Người ;
+    rdfs:label "Thể loại:Thánh Công giáo Việt Nam"@vi ;
+    vn-ont:category vn-res:Giáo_hội_Công_giáo_tại_Việt_Nam,
+        vn-res:Nhân_vật_lịch_sử_Việt_Nam,
+        vn-res:Thánh_Công_giáo_Rôma,
+        vn-res:Thần_thánh_Việt_Nam ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.479553"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Thể_loại:Thánh_Công_giáo_Việt_Nam> ] .
+
+vn-res:Thể_loạiVua_Việt_Nam a vn-ont:Người ;
+    rdfs:label "Thể loại:Vua Việt Nam"@vi ;
+    vn-ont:abstract "Thể loại này chứa các bài viết về các vị vua Việt Nam trong thời kỳ quân chủ phong kiến. Hầu hết các vị vua đều được biết đến bằng thụy hiệu hoặc miếu hiệu, trong khi các vua nhà Nguyễn được biết đến bằng niên hiệu."@vi ;
+    vn-ont:category vn-res:Hoàng_tộc_Việt_Nam,
+        vn-res:Hoàng_đế,
+        vn-res:Nam_giới_Việt_Nam_theo_nghề_nghiệp,
+        vn-res:Nguyên_thủ_Việt_Nam,
+        vn-res:Nhân_vật_lịch_sử_Việt_Nam,
+        vn-res:Tước_vị_trong_lịch_sử_Việt_Nam,
+        vn-res:Vua ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.479656"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Thể_loại:Vua_Việt_Nam> ] .
+
+vn-res:Tân_Hiệp_Phát a vn-ont:TổChức ;
+    rdfs:label "Tân Hiệp Phát"@vi ;
+    vn-ont:abstract "Công ty Trách nhiệm hữu hạn Thương mại - Dịch vụ Tân Hiệp Phát là một doanh nghiệp chuyên sản xuất, kinh doanh các sản phẩm giải khát và thức uống đóng chai tại Việt Nam."@vi ;
+    vn-ont:category vn-res:Bài_thiếu_nguồn_tham_khảo_đáng_tin_cậy,
+        vn-res:Bàn_cãi_về_TĐTL,
+        vn-res:Bản_mẫu_webarchive_dùng_liên_kết_wayback,
+        vn-res:Công_ty_Việt_Nam,
+        vn-res:Công_ty_thành_lập_năm_1994,
+        vn-res:Huân_chương_Lao_động,
+        vn-res:Khởi_đầu_năm_1994_ở_Việt_Nam,
+        vn-res:Lỗi_CS1_URL_lưu_trữ,
+        vn-res:Scandal_Việt_Nam,
+        vn-res:Tất_cả_bài_viết_cần_được_wiki_hóa ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.485394"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Tân_Hiệp_Phát> ] .
+
+vn-res:Tập_đoàn_BRG a vn-ont:TổChức ;
+    rdfs:label "Tập đoàn BRG"@vi ;
+    vn-ont:abstract """Công ty Cổ phần Tập đoàn BRG (tên thường gọi: Tập đoàn BRG) là một doanh nghiệp Việt Nam kinh doanh trên nhiều lĩnh vực, được thành lập vào năm 1993 bởi doanh nhân Nguyễn Thị Nga. BRG được viết tắt từ các lĩnh vực kinh doanh cốt lõi, bao gồm Banking (Tài chính – Ngân hàng), Real Estate (Bất động sản) và Golf (Sân golf). 
+Hiện tại, BRG trở thành tập đoàn kinh tế đa ngành, hoạt động không chỉ trong 3 lĩnh vực trên mà còn trong các lĩnh vực đầu tư, khách sạn – nghỉ dưỡng, bán lẻ, xuất nhập khẩu, phân phối ô tô, quy hoạch đô thị... Tập đoàn BRG cùng các công ty thành viên cũng nhiều năm liền nhận được những giải thưởng lớn, trong đó có thể kể tới "Thương hiệu quốc gia" (2022–nay), Giải thưởng Quy hoạch đô thị Quốc gia Việt Nam, Giải thưởng "Doanh nghiệp tiêu biểu vì người lao động", danh hiệu "Vì sự phát triển Kiến trúc", Giải thưởng Trao quyền cho phụ nữ (WEPs 2021), đặc biệt là Huân chương Lao động hạng Ba (2022) và Huân chương Lao động hạng Nhì (2024).
+Từ tháng 1 năm 2022, Tập đoàn BRG đặt trụ sở tại tòa tháp BRG Tower, số 198 Trần Quang Khải, quận Hoàn Kiếm, Hà Nội."""@vi ;
+    vn-ont:category vn-res:Công_ty_Việt_Nam,
+        vn-res:Khởi_đầu_năm_1993_ở_Việt_Nam,
+        vn-res:Website_chính_thức_không_có_trên_Wikidata ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.485472"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Tập_đoàn_BRG> ] .
+
+vn-res:Võ_Đạt a vn-ont:Người ;
+    rdfs:label "Võ Đạt"@vi ;
+    vn-ont:abstract """Võ Đạt (1838-1886), trước làm quan nhà Nguyễn, sau tham gia phong trào Cần Vương tại Bình Định (Việt Nam). Ông là người thôn Xuân Vinh xã Hoài Mỹ. Năm 1871, ông làm chánh tổng Phú Nhuận, huyện Bồng Sơn, phủ Hoài Nhơn. Năm 1875 (Tự Đức thứ 29), ông được triều đình phong chức  quan kiểm An Dũ. Năm 1885, hưởng ứng chiếu Cần vương,  ông lập quân thứ Xuân Vinh hoạt động trên địa bàn huyện Bồng Sơn phủ Hoài Nhơn, giữ chức đốc tướng dưới quyền  tổng trấn Tăng Bạt Hổ. Tháng 12 năm 1885, quân Cần Vương phía nam Bình Định của Mai Xuân Thưởng hợp nhất với quân Cần vương phía bắc Bình Định của Tăng Bạt Hổ, thống trấn Bùi Điền được cử ra lập căn cứ tại núi Chóp Chài huyện Phù Mỹ.
+Tháng 2 năm 1886, theo yêu cầu giúp đỡ của Nghĩa hội Quảng Ngãi, Mai Xuân Thưởng phái ông cùng với Bùi Điền và Đặng Đề chỉ huy một cánh quân đánh chiếm huyện Mộ Đức tỉnh Quảng Ngãi, một cánh quân khác do Tăng Bạt Hổ chỉ huy theo đường từ đồn Lão Thuộc tiến đánh đồn Thanh Thủy (phía tây nam Quảng Ngãi, thuộc sơn phòng Nghĩa Định) và cánh quân thứ ba do Đỗ Duyệt chỉ huy đánh chiếm huyện Đức Phổ tỉnh Quảng Ngãi. Cánh quân đánh chiếm huyện Đức Phổ bị quân Nguyễn Thân mai phục tại chợ Trà Câu gây thiệt hại nặng - Đỗ Duyệt tử trận - nên phải rút về Bình Định, hai cánh quân còn lại cũng lần lượt rút về Bình Định.
+Tháng 7 năm 1886, quân Nguyễn Thân chiếm đồn Lão Thuộc, đánh bại quân Bùi Điền ở huyện Đức Phổ, Quảng Ngãi, rồi vây đồn Lại Giang, trấn thủ đồn Lại Giang là Đội Dung liệu một mình không chống nổi, bèn cho người cầu cứu hai đồn Phủ Cũ và Bình Đê. Được tin, Võ Đạt và Đặng Đề từ đồn Bình Đê phía bắc đánh vào, Trần Vận từ đồn Phủ Cũ phía nam đánh ra. Trong lúc hỗn chiến thì Võ Đạt trúng đạn tử trận, Trần Vận sa cơ bị bắt, nghĩa quân lớp chết lớp bị thương quá nhiều, nên Đội Dung và Đặng Đề phải lui quân về căn cứ Kim Sơn với Tăng Bạt Hổ.
+Đến cuối tháng 3 năm 1887, Nguyễn Thân mới hoàn toàn bình định được lực lượng Cần vương của Bùi Điền và Tăng Bạt Hổ ở mặt trận phía bắc Bình Định.
+Sau Cách mạng tháng Tám năm 1945, chính quyền Việt Minh đổi tên tổng Phú Nhuận phủ Hoài Nhơn tỉnh Bình Định thành tổng Võ Đạt phủ Hùynh Lịch tỉnh Tăng Bạt Hổ. Đến năm 1946 thì đổi lại tên cũ tỉnh Bình Định, bỏ cấp phủ và cấp tổng.
+
+"""@vi ;
+    vn-ont:category vn-res:Bài_có_liên_kết_hỏng,
+        vn-res:Bài_có_nhiều_vấn_đề,
+        vn-res:Bài_viết_cần_giải_thích,
+        vn-res:Bài_viết_cần_được_mở_rộng,
+        vn-res:Nhân_vật_lịch_sử_Việt_Nam,
+        vn-res:Trang_cần_được_biên_tập_lại ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.479078"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Võ_Đạt> ] .
+
+vn-res:Đinh_Kiến a vn-ont:Người ;
+    rdfs:label "Đinh Kiến"@vi ;
+    vn-ont:abstract """Đinh Kiến(丁建) là thủ lĩnh quân khởi nghĩa chống lại chính quyền nhà Đường thời Bắc thuộc lần III trong lịch sử Việt Nam.
+
+"""@vi ;
+    vn-ont:category vn-res:Khởi_nghĩa_Việt_Nam_thời_Bắc_thuộc_lần_3,
+        vn-res:Mất_năm_687,
+        vn-res:Nhân_vật_lịch_sử_Việt_Nam,
+        vn-res:Nhân_vật_quân_sự_nhà_Đường,
+        vn-res:Năm_sinh_thiếu,
+        vn-res:Sơ_khai_lịch_sử_Việt_Nam,
+        vn-res:Tất_cả_bài_viết_sơ_khai ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.477509"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Đinh_Kiến> ] .
+
+vn-res:Đinh_Nga a vn-ont:Người ;
+    rdfs:label "Đinh Nga"@vi ;
+    vn-ont:abstract """Đinh Nga (thế kỷ X) là một vị tướng thời thời Đinh, được biết đến qua thần phả các đền thờ ở các xã Tân Sơn và Thụy Lôi (Kim Bảng, Hà Nam). Ông có nhiều công lao giúp Đinh Bộ Lĩnh dẹp 12 sứ quân và được phong làm Tướng quân Chỉ huy sứ và làm quan cai quản ở quê hương. Đinh Nga được xem là người khai sáng 3 làng ở Kim Bảng (Hà Nam). Ông cũng là một trong số những vị quan tận trung với nhà Đinh, không phục tùng việc chuyển ngôi từ nhà Đinh sang nhà Tiền Lê.
+
+"""@vi ;
+    vn-ont:category vn-res:Người_Hà_Nam,
+        vn-res:Nhân_vật_lịch_sử_Việt_Nam,
+        vn-res:Nhân_vật_thời_Đinh,
+        vn-res:Quan_lại_nhà_Đinh,
+        vn-res:Võ_tướng_nhà_Đinh ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.477607"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Đinh_Nga> ] .
+
+vn-res:Đoàn_Kiểm_Điểm a vn-ont:Người ;
+    rdfs:label "Đoàn Kiểm Điểm"@vi ;
+    vn-ont:abstract """Đoàn Kiểm Điểm (? - 1940) là con của một viên thừa phái, nguyên quán thuộc tỉnh Lạng Sơn. Tính cương trực, thông Hán văn và Pháp văn. Cuối năm 1940, Đoàn Kiểm Điểm tham gia tổ chức Việt Nam Phục quốc Đồng Minh hội đánh chiếm tỉnh thành Lạng Sơn, bị Pháp bắt giết cùng với lãnh tụ Trần Trung Lập.
+
+"""@vi ;
+    vn-ont:category vn-res:Người_Lạng_Sơn,
+        vn-res:Nhà_cách_mạng_Việt_Nam,
+        vn-res:Nhân_vật_lịch_sử_Việt_Nam,
+        vn-res:Việt_Nam_Phục_quốc_Đồng_minh_Hội ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.477694"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Đoàn_Kiểm_Điểm> ] .
+
+vn-res:Đài_Phát_thanh_Truyền_hình_Hà_Nội a vn-ont:TổChức ;
+    rdfs:label "Đài Phát thanh – Truyền hình Hà Nội"@vi ;
+    vn-ont:abstract "Đài Phát thanh – Truyền hình Hà Nội là cơ quan truyền thông báo chí trực thuộc Ủy ban Nhân dân Thành phố Hà Nội."@vi ;
+    vn-ont:category vn-res:Bài_viết_có_phần_cần_chuyển_thành_văn_xuôi,
+        vn-res:Công_ty_Việt_Nam,
+        vn-res:Doanh_nghiệp_nhà_nước_Việt_Nam,
+        vn-res:Kênh_truyền_hình_Việt_Nam,
+        vn-res:Kênh_địa_phương,
+        vn-res:Truyền_thông_nhà_nước,
+        vn-res:Tất_cả_các_trang_cần_dọn_dẹp,
+        vn-res:Văn_hóa_Hà_Nội,
+        vn-res:Đài_phát_thanh_Việt_Nam,
+        vn-res:Đài_truyền_hình_ở_Việt_Nam ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.483239"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Đài_Phát_thanh_–_Truyền_hình_Hà_Nội> ] .
+
+vn-res:Đông_Tây_Promotion a vn-ont:TổChức ;
+    rdfs:label "Đông Tây Promotion"@vi ;
+    vn-ont:abstract """Công ty Cổ phần Đông Tây Promotion (tiếng Anh: Dong Tay Promotion Corporation, gọi tắt là Đông Tây Promotion) là một công ty chuyên sản xuất các chương trình giải trí trực thuộc Tổ hợp truyền thông Đất Việt (DatViet VAC Group Holdings). Trụ sở chính của công ty đặt tại 222 đường Pasteur, phường Võ Thị Sáu, quận 3, Thành phố Hồ Chí Minh.
+Được thành lập vào năm 2000, Đông Tây Promotion đặt trọng tâm vào các dịch vụ chính yếu bao gồm sản xuất các chương trình truyền hình, quản lý dự án và tổ chức sự kiện với các thể loại như: trò chơi truyền hình, truyền hình thực tế, chương trình âm nhạc, chương trình tạp kỹ... Đông Tây Promotion cung cấp hàng ngàn giờ giải trí mỗi năm trên truyền hình cho hầu hết các kênh truyền hình lớn và trở thành thương hiệu của các trận đấu thể thao chất lượng, các chương trình âm nhạc, thời trang, sức khỏe, chương trình dành cho thiếu nhi và du lịch."""@vi ;
+    vn-ont:category vn-res:Công_ty_Việt_Nam,
+        vn-res:Công_ty_có_trụ_sở_tại_Thành_phố_Hồ_Chí_Minh,
+        vn-res:Công_ty_sản_xuất_truyền_hình_Việt_Nam,
+        vn-res:Công_ty_thành_lập_năm_2000,
+        vn-res:Quản_lý_CS1_bot_trạng_thái_URL_ban_đầu_không_rõ,
+        vn-res:Trang_thiếu_chú_thích_trong_bài ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.483340"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Đông_Tây_Promotion> ] .
+
+vn-res:Đường_sắt_Việt_Nam a vn-ont:TổChức ;
+    rdfs:label "Đường sắt Việt Nam"@vi ;
+    vn-ont:abstract "Đường sắt Việt Nam là một trong những ngành công nghiệp lâu đời của Việt Nam. Ngành Đường sắt Việt Nam ra đời năm 1881 bằng việc khởi công xây dựng tuyến đường sắt đầu tiên đi từ Sài Gòn đến Mỹ Tho dài khoảng 70 km. Chuyến tàu đầu tiên khởi hành ở Việt Nam là vào ngày 20 tháng 7 năm 1885. Những năm sau đó, mạng lưới đường sắt tiếp tục được triển khai xây dựng trên khắp lãnh thổ Việt Nam theo công nghệ đường sắt của Pháp với khổ đường ray 1 m. Thời kỳ chiến tranh, hệ thống đường sắt bị hư hại nặng nề. Kể từ năm 1986, Chính phủ tiến hành khôi phục lại các tuyến đường sắt chính và các ga lớn, đặc biệt là tuyến Đường sắt Bắc - Nam."@vi ;
+    vn-ont:category vn-res:Bài_có_hộp_thông_tin_không_có_hàng_dữ_liệu,
+        vn-res:Bài_viết_có_trích_dẫn_không_khớp,
+        vn-res:Bản_mẫu_webarchive_dùng_liên_kết_wayback,
+        vn-res:Bộ_Giao_thông_Vận_tải_Việt_Nam,
+        vn-res:Công_ty_Việt_Nam,
+        vn-res:Giao_thông_Việt_Nam,
+        vn-res:Kiểm_soát_tính_nhất_quán_với_0_yếu_tố,
+        vn-res:Lỗi_CS1_ngày_tháng,
+        vn-res:Lỗi_CS1_tham_số_không_rõ,
+        vn-res:Nhãn_hiệu_Việt_Nam ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.483468"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Đường_sắt_Việt_Nam> ] .
+
+vn-res:Đề_Sặt a vn-ont:Người ;
+    rdfs:label "Đề Sặt"@vi ;
+    vn-ont:abstract """Đỗ Văn Hùng (? – 1893) còn được gọi là Đề Sặt, từng phục tùng và đã ám sát thủ lĩnh nghĩa quân Yên Thế Đề Nắm rồi hàng Pháp. Sau đó, Đề Truật dưới lệnh của Đề Thám đã vây bắt và giết y rồi đem đi bêu để trả thù cho Đề Nắm.
+
+"""@vi ;
+    vn-ont:category vn-res:Bài_viết_có_trích_dẫn_không_khớp,
+        vn-res:Mất_năm_1893,
+        vn-res:Nhân_vật_lịch_sử_Việt_Nam,
+        vn-res:Năm_sinh_không_rõ,
+        vn-res:Trang_đưa_đối_số_thừa_vào_bản_mẫu ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.477393"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Đề_Sặt> ] .
+
+vn-res:Đỗ_Huy_Cảnh a vn-ont:Người ;
+    rdfs:label "Đỗ Huy Cảnh"@vi ;
+    vn-ont:abstract """Đỗ Huy Cảnh (chữ Hán:杜 輝 璟, 1792- 1850), húy Ân, tự Huy Cảnh, hiệu Định Hiên; là quan triều Nguyễn trong lịch sử Việt Nam.
+
+"""@vi ;
+    vn-ont:category vn-res:Mất_năm_1850,
+        vn-res:Người_Nam_Định,
+        vn-res:Nhân_vật_lịch_sử_Việt_Nam,
+        vn-res:Quan_lại_nhà_Nguyễn,
+        vn-res:Sinh_năm_1792,
+        vn-res:Sơ_khai_chính_khách_Việt_Nam,
+        vn-res:Tất_cả_bài_viết_sơ_khai ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.477800"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Đỗ_Huy_Cảnh> ] .
+
+vn-res:Anh_hùng_dân_tộc_Việt_Nam a vn-ont:Người ;
+    rdfs:label "Anh hùng dân tộc Việt Nam"@vi ;
+    vn-ont:abstract """Anh hùng dân tộc Việt Nam là thuật ngữ chỉ những người có công kiệt xuất trong cuộc đấu tranh cho sự trường tồn và phát triển của dân tộc Việt Nam, được nhân dân suy tôn làm anh hùng và ghi danh vào lịch sử dân tộc Việt Nam.
+
+"""@vi ;
+    vn-ont:category vn-res:Anh_hùng_dân_tộc_Việt_Nam,
+        vn-res:Bản_mẫu_webarchive_dùng_liên_kết_wayback,
+        vn-res:Nhân_vật_lịch_sử_Việt_Nam ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.475629"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Anh_hùng_dân_tộc_Việt_Nam> ] .
+
+vn-res:Công_ty_cổ_phần_nhựa_Rạng_Đông a vn-ont:TổChức ;
+    rdfs:label "Công ty cổ phần nhựa Rạng Đông"@vi ;
+    vn-ont:abstract "Công ty Cổ phần Nhựa Rạng Đông (RDP, Tiếng Anh: Rang Dong Plastic Join - Stock Co.) là một công ty Việt Nam hoạt động sản xuất về ngành nhựa. Công ty thành lập từ năm 1960 với tên UFEOC (Liên hiệp các xí nghiệp cao su Viễn Đông Pháp) một doanh nghiệp nhựa tại Việt Nam"@vi ;
+    vn-ont:category vn-res:Bài_có_liên_kết_hỏng,
+        vn-res:Bộ_Công_Thương_Việt_Nam,
+        vn-res:Chất_dẻo,
+        vn-res:Công_ty_Việt_Nam,
+        vn-res:Công_ty_cổ_phần_nhựa_Rạng_Đông,
+        vn-res:Huân_chương_Lao_động_hạng_Ba,
+        vn-res:Huân_chương_Lao_động_hạng_Nhì,
+        vn-res:Huân_chương_Lao_động_hạng_Nhất,
+        vn-res:Huân_chương_Độc_lập_hạng_Ba,
+        vn-res:Huân_chương_Độc_lập_hạng_Nhì ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.481437"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Công_ty_cổ_phần_nhựa_Rạng_Đông> ] .
+
+vn-res:Công_ty_giải_trí a vn-ont:TổChức ;
+    rdfs:label "Công ty giải trí"@vi ;
+    vn-ont:abstract "Công ty giải trí hay hãng giải trí, hay còn gọi là công ty quản lý nghệ sĩ (tức công ty chủ quản), là loại hình doanh nghiệp tham gia trong việc quản lý và xây dựng hình tượng cho các ca sĩ, nhóm nhạc hay diễn viên một cách chiến lược, bài bản. Đôi lúc nó cũng được hiểu như một hãng thu âm, hay một hãng ghi hình, hãng phim truyền hình. Phần lớn các công ty loại này tồn tại ở Mỹ, Anh, Ấn Độ, Thái Lan, Philippines hay các nước Á Đông như Nhật Bản, Hàn Quốc, Trung Quốc, Đài Loan, Hồng Kông cũng như Việt Nam."@vi ;
+    vn-ont:category vn-res:Công_ty,
+        vn-res:Công_ty_giải_trí,
+        vn-res:Công_ty_quản_lý_tài_năng,
+        vn-res:Công_ty_văn_hóa_giải_trí,
+        vn-res:Công_ty_đại_diện_tài_năng_và_văn_chương,
+        vn-res:Giải_trí,
+        vn-res:Lỗi_CS1_tham_số_không_rõ,
+        vn-res:Quản_lý_CS1_địa_điểm,
+        vn-res:Trang_sử_dụng_div_col_có_các_tham_số_không_rõ ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.482573"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Công_ty_giải_trí> ] .
+
+vn-res:Kềm_Nghĩa a vn-ont:TổChức ;
+    rdfs:label "Kềm Nghĩa"@vi ;
+    vn-ont:abstract """Kềm Nghĩa là tên gọi tắt của Công ty Cổ phần Kềm Nghĩa, là một công ty Việt Nam chuyên sản xuất, kinh doanh các sản phẩm chăm sóc móng như kềm cắt móng và da, giũa móng, bấm móng, sơn móng... và các dịch vụ chăm sóc sắc đẹp.
+Theo thống kê hiện nay các sản phẩm của Kềm Nghĩa chiếm 80% thị phần tại Việt Nam, được công nhận là thương hiệu quốc gia. Ngoài việc phân phối mạnh trong nước với mạng lưới 187 nhà phân phối đều 64 tỉnh thành, sản phẩm Kềm Nghĩa còn có mặt tại trên 25 nước trên thế giới. Hiện nay Kềm Nghĩa đã xây dựng được 3 nhà máy với tổng mặt bằng sản xuất là 20,000 mét vuông và đang xây dựng thêm 1 nhà máy mới, với sự đa dạng về sản phẩm, Kềm Nghĩa hiện có trên 100 các sản phẩm chăm sóc móng."""@vi ;
+    vn-ont:category vn-res:Bài_có_liên_kết_hỏng,
+        vn-res:Bài_viết_có_văn_phong_quảng_cáo,
+        vn-res:Bộ_Công_Thương_Việt_Nam,
+        vn-res:Công_ty_Việt_Nam,
+        vn-res:Kềm_Nghĩa,
+        vn-res:Nhãn_hiệu_Việt,
+        vn-res:Pages_using_deprecated_image_syntax,
+        vn-res:Trang_cần_được_biên_tập_lại ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.484157"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Kềm_Nghĩa> ] .
+
+vn-res:Danh_sách_công_ty_Việt_Nam a vn-ont:TổChức ;
+    rdfs:label "Danh sách công ty Việt Nam"@vi ;
+    vn-ont:abstract """Nền kinh tế Việt Nam chủ yếu được định hình bởi Đảng Cộng sản Việt Nam với Kế hoạch 5 năm được thông qua trong Hội nghị thường kỳ của Ban Chấp hành Trung ương và Đại hội Đại biểu toàn quốc.
+Ngành chế tạo, công nghệ thông tin và các ngành công nghiệp công nghệ cao hiện nay thiết lập nên một bộ phận lớn mạnh và phát triển nhanh chóng của nền kinh tế quốc dân. Mặc dù Việt Nam mới gia nhập ngành công nghiệp dầu khí ở mức tương đối nhưng đây hiện là nhà sản xuất dầu mỏ lớn thứ ba tại Đông Nam Á với tổng sản lượng năm 2011 là 318.000 thùng/ngày (tương đương 50.600 m³/ngày). Năm 2010, Việt Nam đứng thứ 8 trong số các nhà sản xuất dầu thô lớn nhất khu vực châu Á-Thái Bình Dương. 
+Dưới đây là danh sách các công ty tiêu biểu ở Việt Nam, được phân loại theo chuẩn ICB (Industry Classification Benchmark)."""@vi ;
+    vn-ont:category vn-res:Bài_viết_với_chủ_đề_có_độ_nổi_bật_không_rõ,
+        vn-res:Bản_mẫu_webarchive_dùng_liên_kết_wayback,
+        vn-res:Công_ty_Việt_Nam,
+        vn-res:Danh_sách_công_ty_Việt_Nam,
+        vn-res:Danh_sách_công_ty_theo_quốc_gia,
+        vn-res:Kinh_doanh_ở_Việt_Nam,
+        vn-res:Trang_sử_dụng_div_col_có_các_tham_số_không_rõ ;
+    prov:wasDerivedFrom [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.479889"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Danh_sách_công_ty_Việt_Nam> ],
+        [ a prov:Entity ;
+            prov:generatedAtTime "2025-09-25T11:53:40.479769"^^xsd:dateTime ;
+            prov:wasAttributedTo <https://vi.wikipedia.org/wiki/Danh_sách_công_ty_Việt_Nam> ] .
+

@@ -1,0 +1,72 @@
+mappings:
+  "Thông tin nhân vật":
+    class: "dbo:Person"
+    properties:
+      "tên": "foaf:name"
+      "ngày sinh": "dbo:birthDate"
+      "nơi sinh": "dbo:birthPlace"
+      "ngày mất": "dbo:deathDate"
+      "nơi mất": "dbo:deathPlace"
+      "nghề nghiệp": "dbo:occupation"
+      "quốc tịch": "dbo:nationality"
+  "Infobox person":
+    class: "dbo:Person"
+    properties:
+      "name": "foaf:name"
+      "birth_date": "dbo:birthDate"
+      "birth_place": "dbo:birthPlace"
+  "Thông tin đô thị Việt Nam":
+    class: "vido:AdministrativeDivisionVN"
+    properties:
+      "tên": "rdfs:label"
+      "vùng": "dbo:region"
+      "tỉnh": "dbo:province"
+      "diện tích": "dbo:areaTotal"
+      "dân số": "dbo:populationTotal"
+  "Infobox settlement":
+    class: "vido:AdministrativeDivisionVN"
+    properties:
+      "name": "rdfs:label"
+      "subdivision_name": "dbo:region"
+  "Thông tin triều đại":
+    class: "vido:VietnameseDynasty"
+    properties:
+      "tên": "rdfs:label"
+      "thủ đô": "dbo:capital"
+      "năm bắt đầu": "dbo:foundingYear"
+      "năm kết thúc": "dbo:dissolutionYear"
+  "Thông tin quân nhân":
+    class: "dbo:MilitaryPerson"
+    properties:
+      "tên": "foaf:name"
+      "ngày sinh": "dbo:birthDate"
+      "nơi sinh": "dbo:birthPlace"
+      "binh chủng": "dbo:militaryBranch"
+      "cấp bậc": "dbo:militaryRank"
+      "trận chiến": "dbo:battle"
+  "Thông tin công ty":
+    class: "dbo:Company"
+    properties:
+      "tên công ty": "foaf:name"
+      "ngành nghề": "dbo:industry"
+      "trụ sở chính": "dbo:headquarter"
+  "Infobox company":
+    class: "dbo:Company"
+    properties:
+      "name": "foaf:name"
+      "industry": "dbo:industry"
+  "Thông tin đại học":
+    class: "dbo:University"
+    properties:
+      "tên": "foaf:name"
+      "thành phố": "dbo:city"
+  "Infobox university":
+    class: "dbo:University"
+    properties:
+      "name": "foaf:name"
+      "city": "dbo:city"
+  "Thông tin sông":
+    class: "dbo:River"
+    properties:
+      "tên": "rdfs:label"
+      "độ dài": "dbo:length"

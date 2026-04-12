@@ -1,0 +1,29 @@
+@prefix : <http://vi.dbpedia.org/ontology/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix vido: <http://vi.dbpedia.org/ontology/> .
+
+vido: a owl:Ontology ;
+    rdfs:label "Vietnamese DBpedia Ontology"@en, "Bản mẫu Ontology DBpedia Tiếng Việt"@vi ;
+    owl:imports dbo: .
+
+vido:VietnameseDynasty a owl:Class ;
+    rdfs:label "Vietnamese Dynasty"@en, "Triều đại Việt Nam"@vi ;
+    rdfs:subClassOf dbo:HistoricalPeriod .
+
+vido:AdministrativeDivisionVN a owl:Class ;
+    rdfs:label "Vietnamese Administrative Division"@en, "Đơn vị hành chính Việt Nam"@vi ;
+    rdfs:subClassOf dbo:AdministrativeRegion .
+
+vido:templeName a owl:DatatypeProperty ;
+    rdfs:label "temple name"@en, "miếu hiệu"@vi ;
+    rdfs:domain dbo:Person ;
+    rdfs:range xsd:string .
+
+vido:posthumousName a owl:DatatypeProperty ;
+    rdfs:label "posthumous name"@en, "thụy hiệu"@vi ;
+    rdfs:domain dbo:Person ;
+    rdfs:range xsd:string .

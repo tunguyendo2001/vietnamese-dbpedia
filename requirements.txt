@@ -1,0 +1,6 @@
+requests
+mwparserfromhell
+rdflib
+pyyaml
+tqdm
+wikipedia-api

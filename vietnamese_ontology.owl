@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/ontology/ĐịaĐiểm">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:label xml:lang="vi">Địa điểm</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/ontology/Place"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/ontology/TổChức">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:label xml:lang="vi">Tổ chức</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/ontology/Organisation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/ontology/nghềNghiệp">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:label xml:lang="vi">Nghề nghiệp</rdfs:label>
+    <owl:equivalentProperty rdf:resource="http://dbpedia.org/ontology/occupation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/ontology/ngàySinh">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:label xml:lang="vi">Ngày sinh</rdfs:label>
+    <owl:equivalentProperty rdf:resource="http://dbpedia.org/ontology/birthDate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/ontology/Loài">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:label xml:lang="vi">Loài sinh vật</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/ontology/Species"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/ontology/TácPhẩm">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:label xml:lang="vi">Tác phẩm</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/ontology/Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/ontology/nơiSinh">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:label xml:lang="vi">Nơi sinh</rdfs:label>
+    <owl:equivalentProperty rdf:resource="http://dbpedia.org/ontology/birthPlace"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/ontology/Sự Kiện">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:label xml:lang="vi">Sự kiện</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/ontology/Event"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/ontology/thuộcVề">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:label xml:lang="vi">Thuộc về quốc gia</rdfs:label>
+    <owl:equivalentProperty rdf:resource="http://dbpedia.org/ontology/country"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/ontology/Người">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:label xml:lang="vi">Người</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/ontology/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/ontology/tên">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:label xml:lang="vi">Tên của đối tượng</rdfs:label>
+    <owl:equivalentProperty rdf:resource="http://dbpedia.org/ontology/name"/>
+  </rdf:Description>
+</rdf:RDF>
