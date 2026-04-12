@@ -1,4 +1,7 @@
 mappings:
+  # ==========================================
+  # 1. NHÂN VẬT & TIỂU SỬ
+  # ==========================================
   "Thông tin nhân vật":
     class: "dbo:Person"
     properties:
@@ -9,64 +12,127 @@ mappings:
       "nơi mất": "dbo:deathPlace"
       "nghề nghiệp": "dbo:occupation"
       "quốc tịch": "dbo:nationality"
+      "phu ngẫu": "dbo:spouse"
+      "vợ": "dbo:spouse"
+      "chồng": "dbo:spouse"
+      "con": "dbo:child"
+      "hình ảnh": "foaf:depiction"
+
   "Infobox person":
     class: "dbo:Person"
     properties:
       "name": "foaf:name"
       "birth_date": "dbo:birthDate"
       "birth_place": "dbo:birthPlace"
-  "Thông tin đô thị Việt Nam":
-    class: "vido:AdministrativeDivisionVN"
-    properties:
-      "tên": "rdfs:label"
-      "vùng": "dbo:region"
-      "tỉnh": "dbo:province"
-      "diện tích": "dbo:areaTotal"
-      "dân số": "dbo:populationTotal"
-  "Infobox settlement":
-    class: "vido:AdministrativeDivisionVN"
-    properties:
-      "name": "rdfs:label"
-      "subdivision_name": "dbo:region"
-  "Thông tin triều đại":
-    class: "vido:VietnameseDynasty"
-    properties:
-      "tên": "rdfs:label"
-      "thủ đô": "dbo:capital"
-      "năm bắt đầu": "dbo:foundingYear"
-      "năm kết thúc": "dbo:dissolutionYear"
+      "death_date": "dbo:deathDate"
+      "death_place": "dbo:deathPlace"
+      "occupation": "dbo:occupation"
+      "nationality": "dbo:nationality"
+      "spouse": "dbo:spouse"
+
   "Thông tin quân nhân":
     class: "dbo:MilitaryPerson"
     properties:
       "tên": "foaf:name"
       "ngày sinh": "dbo:birthDate"
       "nơi sinh": "dbo:birthPlace"
+      "ngày mất": "dbo:deathDate"
+      "nơi mất": "dbo:deathPlace"
       "binh chủng": "dbo:militaryBranch"
       "cấp bậc": "dbo:militaryRank"
       "trận chiến": "dbo:battle"
+      "quốc gia": "dbo:country"
+
+  # ==========================================
+  # 2. ĐỊA LÝ & HÀNH CHÍNH
+  # ==========================================
+  "Thông tin đô thị Việt Nam":
+    class: "dbo:PopulatedPlace"
+    properties:
+      "tên": "rdfs:label"
+      "vùng": "dbo:region"
+      "tỉnh": "dbo:province"
+      "diện tích": "dbo:areaTotal"
+      "dân số": "dbo:populationTotal"
+      "mã bưu chính": "dbo:postalCode"
+      "trang web": "foaf:homepage"
+      "website": "foaf:homepage"
+
+  "Infobox settlement":
+    class: "dbo:PopulatedPlace"
+    properties:
+      "name": "rdfs:label"
+      "subdivision_name": "dbo:region"
+      "area_total_km2": "dbo:areaTotal"
+      "population_total": "dbo:populationTotal"
+      "website": "foaf:homepage"
+
+  "Thông tin sông":
+    class: "dbo:River"
+    properties:
+      "tên": "rdfs:label"
+      "độ dài": "dbo:length"
+      "diện tích lưu vực": "dbo:watershed"
+      "lưu lượng": "dbo:discharge"
+      "nguồn": "dbo:riverMouth"
+
+  # ==========================================
+  # 3. TỔ CHỨC & ĐẠI HỌC
+  # ==========================================
   "Thông tin công ty":
     class: "dbo:Company"
     properties:
       "tên công ty": "foaf:name"
       "ngành nghề": "dbo:industry"
       "trụ sở chính": "dbo:headquarter"
+      "người sáng lập": "dbo:founder"
+      "doanh thu": "dbo:revenue"
+      "số nhân viên": "dbo:numberOfEmployees"
+      "sản phẩm": "dbo:product"
+      "trang web": "foaf:homepage"
+      "website": "foaf:homepage"
+
   "Infobox company":
     class: "dbo:Company"
     properties:
       "name": "foaf:name"
       "industry": "dbo:industry"
+      "headquarters": "dbo:headquarter"
+      "founder": "dbo:founder"
+      "revenue": "dbo:revenue"
+      "homepage": "foaf:homepage"
+
   "Thông tin đại học":
     class: "dbo:University"
     properties:
       "tên": "foaf:name"
       "thành phố": "dbo:city"
+      "hiệu trưởng": "dbo:president"
+      "thành lập": "dbo:foundingDate"
+      "năm thành lập": "dbo:foundingYear"
+      "sinh viên": "dbo:numberOfStudents"
+      "trang web": "foaf:homepage"
+      "website": "foaf:homepage"
+
   "Infobox university":
     class: "dbo:University"
     properties:
       "name": "foaf:name"
       "city": "dbo:city"
-  "Thông tin sông":
-    class: "dbo:River"
+      "president": "dbo:president"
+      "established": "dbo:foundingDate"
+      "students": "dbo:numberOfStudents"
+      "website": "foaf:homepage"
+
+  # ==========================================
+  # 4. LỊCH SỬ
+  # ==========================================
+  "Thông tin triều đại":
+    class: "dbo:HistoricalPeriod"
     properties:
       "tên": "rdfs:label"
-      "độ dài": "dbo:length"
+      "thủ đô": "dbo:capital"
+      "năm bắt đầu": "dbo:foundingYear"
+      "năm kết thúc": "dbo:dissolutionYear"
+      "người sáng lập": "dbo:founder"
+  

@@ -1,29 +1,72 @@
-@prefix : <http://vi.dbpedia.org/ontology/> .
-@prefix dbo: <http://dbpedia.org/ontology/> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix vido: <http://vi.dbpedia.org/ontology/> .
 
 vido: a owl:Ontology ;
-    rdfs:label "Vietnamese DBpedia Ontology"@en, "Bản mẫu Ontology DBpedia Tiếng Việt"@vi ;
-    owl:imports dbo: .
+    rdfs:label "Vietnamese DBpedia Extended Ontology"@vi ;
+    rdfs:comment "Ontology dành cho Vietnamese DBpedia, ánh xạ với DBpedia English và bổ sung khái niệm bản địa."@vi .
 
-vido:VietnameseDynasty a owl:Class ;
-    rdfs:label "Vietnamese Dynasty"@en, "Triều đại Việt Nam"@vi ;
-    rdfs:subClassOf dbo:HistoricalPeriod .
+# ==========================================
+# 1. ÁNH XẠ CÁC CLASS CƠ BẢN (LABEL TIẾNG VIỆT)
+# ==========================================
+
+vido:Person a owl:Class ;
+    rdfs:label "Nhân vật"@vi ;
+    owl:equivalentClass dbo:Person .
+
+vido:MilitaryPerson a owl:Class ;
+    rdfs:label "Quân nhân"@vi ;
+    rdfs:subClassOf vido:Person ;
+    owl:equivalentClass dbo:MilitaryPerson .
+
+vido:Company a owl:Class ;
+    rdfs:label "Công ty / Doanh nghiệp"@vi ;
+    owl:equivalentClass dbo:Company .
+
+vido:University a owl:Class ;
+    rdfs:label "Trường Đại học"@vi ;
+    owl:equivalentClass dbo:University .
+
+vido:River a owl:Class ;
+    rdfs:label "Sông ngòi"@vi ;
+    owl:equivalentClass dbo:River .
+
+# ==========================================
+# 2. CÁC CLASS ĐẶC THÙ CỦA VIỆT NAM (CUSTOM CLASSES)
+# ==========================================
 
 vido:AdministrativeDivisionVN a owl:Class ;
-    rdfs:label "Vietnamese Administrative Division"@en, "Đơn vị hành chính Việt Nam"@vi ;
-    rdfs:subClassOf dbo:AdministrativeRegion .
+    rdfs:label "Đơn vị hành chính Việt Nam"@vi ;
+    rdfs:subClassOf dbo:PopulatedPlace ;
+    rdfs:comment "Phân cấp hành chính đặc thù của Việt Nam (Tỉnh, Huyện, Xã)"@vi .
 
-vido:templeName a owl:DatatypeProperty ;
-    rdfs:label "temple name"@en, "miếu hiệu"@vi ;
-    rdfs:domain dbo:Person ;
-    rdfs:range xsd:string .
+vido:VietnameseDynasty a owl:Class ;
+    rdfs:label "Triều đại Việt Nam"@vi ;
+    rdfs:subClassOf dbo:HistoricalPeriod ;
+    rdfs:comment "Các triều đại phong kiến trong lịch sử Việt Nam (Lý, Trần, Lê...)"@vi .
 
-vido:posthumousName a owl:DatatypeProperty ;
-    rdfs:label "posthumous name"@en, "thụy hiệu"@vi ;
-    rdfs:domain dbo:Person ;
-    rdfs:range xsd:string .
+# ==========================================
+# 3. CÁC PROPERTY ĐẶC THÙ HOẶC CẦN VIỆT HÓA
+# ==========================================
+
+vido:foundingYear a owl:DatatypeProperty ;
+    rdfs:label "năm thành lập"@vi ;
+    owl:equivalentProperty dbo:foundingYear ;
+    rdfs:range xsd:gYear .
+
+vido:dissolutionYear a owl:DatatypeProperty ;
+    rdfs:label "năm sụp đổ / kết thúc"@vi ;
+    owl:equivalentProperty dbo:dissolutionYear ;
+    rdfs:domain vido:VietnameseDynasty ;
+    rdfs:range xsd:gYear .
+
+vido:province a owl:ObjectProperty ;
+    rdfs:label "thuộc tỉnh"@vi ;
+    owl:equivalentProperty dbo:province ;
+    rdfs:domain vido:AdministrativeDivisionVN ;
+    rdfs:range dbo:PopulatedPlace .
+    
