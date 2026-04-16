@@ -1,5 +1,6 @@
 import json
 import os
+import re
 import yaml
 from rdflib import Graph, Literal, RDF, URIRef, Namespace
 from rdflib.namespace import FOAF, RDFS, XSD, OWL
@@ -7,6 +8,29 @@ from urllib.parse import quote
 
 def clean_uri(text):
     return quote(text.replace(" ", "_"))
+
+def extract_url(value):
+    """Extract the first http/https URL from a MediaWiki-formatted string."""
+    match = re.search(r'https?://[^\s\|\]<>{}]+', value)
+    return match.group(0).rstrip("/.") if match else None
+
+# Properties whose values should be resolved to vir: resource URIs
+# (entity links: places, people, organisations, military units, etc.)
+URI_PROPERTIES = {
+    # Places
+    "dbo:birthPlace", "dbo:deathPlace", "dbo:country", "dbo:location",
+    "dbo:region", "dbo:province", "vido:province", "dbo:hub", "dbo:riverMouth",
+    "dbo:restingPlace", "dbo:city", "dbo:capital", "dbo:place",
+    "dbo:routeStart", "dbo:routeEnd",
+    # Persons / organisations
+    "dbo:militaryBranch", "dbo:battle", "dbo:era",
+    "dbo:spouse", "dbo:child", "dbo:founder", "dbo:parentCompany",
+    "dbo:headquarter", "dbo:leader", "dbo:predecessor", "dbo:successor",
+    "dbo:incumbent", "dbo:team", "dbo:department",
+}
+
+# Properties whose values are web URLs (keep as URIRef, not vir:)
+URL_PROPERTIES = {"foaf:homepage", "foaf:depiction"}
 
 def main():
     DBO = Namespace("http://dbpedia.org/ontology/")
@@ -39,6 +63,15 @@ def main():
     }
     fallback_person = {"class": "dbo:Person", "properties": person_properties}
 
+    # Geography/administrative fallback
+    place_properties = {
+        "tên": "rdfs:label", "name": "rdfs:label",
+        "vùng": "dbo:region", "tỉnh": "vido:province",
+        "diện tích": "dbo:areaTotal", "dân số": "dbo:populationTotal",
+    }
+    fallback_place = {"class": "vido:AdministrativeDivisionVN", "properties": place_properties}
+    place_hints = {"diện tích", "dân số", "vùng", "tỉnh", "thành phố", "area_total_km2", "population_total"}
+
     processed_dir = "data/processed"
     files = [f for f in os.listdir(processed_dir) if f.endswith(".json")]
     
@@ -67,6 +100,8 @@ def main():
                     person_hints = {"ngày sinh", "nơi sinh", "birth_date", "birth_place", "sinh"}
                     if keys & person_hints:
                         map_rule = fallback_person
+                    elif keys & place_hints:
+                        map_rule = fallback_place
             
             if map_rule:
                 # Set class
@@ -96,7 +131,16 @@ def main():
                         # Attempt to clean value (remove [[ ]])
                         clean_val = value.replace("[[", "").replace("]]", "").split("|")[0].strip()
                         if clean_val:
-                            g.add((subject_uri, p, Literal(clean_val)))
+                            if prop_uri in URI_PROPERTIES:
+                                # Resolve to a vir: URI for 4★ Linked Data compliance
+                                g.add((subject_uri, p, VIR[clean_uri(clean_val)]))
+                            elif prop_uri in URL_PROPERTIES:
+                                # Extract first valid URL from MediaWiki-formatted value
+                                url = extract_url(value)
+                                if url:
+                                    g.add((subject_uri, p, URIRef(url)))
+                            else:
+                                g.add((subject_uri, p, Literal(clean_val)))
 
     os.makedirs("data/rdf", exist_ok=True)
     g.serialize(destination="data/rdf/data.ttl", format="turtle")

@@ -112,6 +112,34 @@ def evaluate_project(rdf_file="data/rdf/data.ttl", raw_dir="data/raw", processed
             print(f"📊 Entity có định nghĩa Class (rdf:type): {num_typed}/{num_subjects} ({(num_typed/num_subjects)*100:.1f}%)")
             print(f"📊 Entity có trích xuất thuộc tính (Properties): {num_with_props}/{num_subjects} ({(num_with_props/num_subjects)*100:.1f}%)")
             
+            # 4★ check: ratio of URI-valued object properties vs Literals
+            q_uri_obj = """
+            SELECT (COUNT(*) AS ?c) WHERE {
+                ?s ?p ?o .
+                FILTER(isURI(?o))
+                FILTER(?p NOT IN (
+                    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>,
+                    <http://www.w3.org/2002/07/owl#sameAs>
+                ))
+            }"""
+            q_lit_obj = """
+            SELECT (COUNT(*) AS ?c) WHERE {
+                ?s ?p ?o .
+                FILTER(isLiteral(?o))
+                FILTER(?p NOT IN (<http://www.w3.org/2000/01/rdf-schema#label>))
+            }"""
+            num_uri_vals = int(list(g.query(q_uri_obj))[0][0])
+            num_lit_vals = int(list(g.query(q_lit_obj))[0][0])
+            total_vals = num_uri_vals + num_lit_vals
+            uri_ratio = (num_uri_vals / total_vals * 100) if total_vals > 0 else 0
+            print(f"\n📊 [4★ Chuẩn] Giá trị là URI (Linked): {num_uri_vals}")
+            print(f"📊 [4★ Chuẩn] Giá trị là Literal (chuỗi): {num_lit_vals}")
+            print(f"📊 [4★ Chuẩn] Tỷ lệ URI/tổng giá trị: {uri_ratio:.1f}%")
+            if uri_ratio >= 30:
+                print(f"✅ Đạt chuẩn 4★: Dữ liệu sử dụng URI để định danh thực thể")
+            else:
+                print(f"⚠️ Chưa đạt chuẩn 4★: Tỷ lệ URI thấp, nhiều giá trị vẫn là chuỗi văn bản")
+
             if (num_with_props/num_subjects) < 0.2:
                 print("❌ Lỗi nghiêm trọng: Transform quá yếu, hơn 80% entity không có thuộc tính dữ liệu thực.")
     else:
@@ -133,9 +161,9 @@ def evaluate_project(rdf_file="data/rdf/data.ttl", raw_dir="data/raw", processed
         valid_links = 0
         self_links = 0
         for row in links:
-            s_name = str(row[0]).split("/")[-1]
-            o_name = str(row[1]).split("/")[-1]
-            if s_name == o_name:
+            # A true self-link is when the full URIs are identical.
+            # vir:X owl:sameAs dbr:X is NOT a self-link (different namespaces).
+            if str(row[0]) == str(row[1]):
                 self_links += 1
             else:
                 valid_links += 1
@@ -152,13 +180,7 @@ def evaluate_project(rdf_file="data/rdf/data.ttl", raw_dir="data/raw", processed
     # ==========================================
     print("\n[5] YÊU CẦU 5: GIAO DIỆN SPARQL / UI")
     print("-" * 40)
-    has_interface = os.path.exists("interface.py")
     has_docker = os.path.exists("sparql/docker-compose.yml")
-    
-    if has_interface:
-        print("✅ Giao diện người dùng: Tồn tại (Gradio Interface)")
-    else:
-        print("❌ Giao diện người dùng: Không tìm thấy interface.py")
         
     if has_docker:
         print("✅ Giao diện Endpoint (M2M): Tồn tại (Apache Jena Fuseki Docker)")

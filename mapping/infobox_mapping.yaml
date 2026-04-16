@@ -145,6 +145,25 @@ mappings:
       "death_place": "dbo:deathPlace"
       "nationality": "dbo:nationality"
       "office": "dbo:occupation"
+      "spouse": "dbo:spouse"
+
+  "Infobox officeholder 1":
+    class: "dbo:Person"
+    properties:
+      "name": "foaf:name"
+      "birth_date": "dbo:birthDate"
+      "birth_place": "dbo:birthPlace"
+      "death_date": "dbo:deathDate"
+      "death_place": "dbo:deathPlace"
+      "nationality": "dbo:nationality"
+      "office": "dbo:occupation"
+      "spouse": "dbo:spouse"
+      "ngày sinh": "dbo:birthDate"
+      "nơi sinh": "dbo:birthPlace"
+      "ngày mất": "dbo:deathDate"
+      "nơi mất": "dbo:deathPlace"
+      "quốc tịch": "dbo:nationality"
+      "chức vụ": "dbo:occupation"
 
   "Infobox writer":
     class: "dbo:Person"
@@ -658,4 +677,219 @@ mappings:
       "date": "dbo:date"
       "place": "dbo:place"
       "result": "dbo:result"
+
+  # ==========================================
+  # 8. ĐƠN VỊ HÀNH CHÍNH & ĐƯỜNG BỘ VIỆT NAM (158+66 entries)
+  # ==========================================
+  "Thông tin đơn vị hành chính Việt Nam":
+    class: "vido:AdministrativeDivisionVN"
+    properties:
+      "tên": "rdfs:label"
+      "name": "rdfs:label"
+      "vùng": "dbo:region"
+      "tỉnh": "vido:province"
+      "thành phố": "vido:province"
+      "diện tích": "dbo:areaTotal"
+      "dân số": "dbo:populationTotal"
+
+  "Thông tin đường bộ Việt Nam":
+    class: "dbo:Road"
+    properties:
+      "name": "rdfs:label"
+      "tên": "rdfs:label"
+      "Chiều dài": "dbo:length"
+      "Tỉnh": "vido:province"
+      "Đầu": "dbo:routeStart"
+      "Cuối": "dbo:routeEnd"
+
+  # ==========================================
+  # 9. ĐẢO & DI TÍCH / DI SẢN
+  # ==========================================
+  "Infobox islands":
+    class: "dbo:Island"
+    properties:
+      "name": "rdfs:label"
+      "location": "dbo:location"
+      "country": "dbo:country"
+      "area km2": "dbo:areaTotal"
+      "population": "dbo:populationTotal"
+
+  "Infobox UNESCO World Heritage Site":
+    class: "dbo:WorldHeritageSite"
+    properties:
+      "WHS": "rdfs:label"
+      "location": "dbo:location"
+      "year": "dbo:year"
+      "area": "dbo:areaTotal"
+
+  # ==========================================
+  # 10. NGHỆ SĨ ÂM NHẠC
+  # ==========================================
+  "Thông tin nghệ sĩ âm nhạc":
+    class: "dbo:MusicalArtist"
+    properties:
+      "tên": "foaf:name"
+      "name": "foaf:name"
+      "tên khai sinh": "foaf:name"
+      "ngày sinh": "dbo:birthDate"
+      "nơi sinh": "dbo:birthPlace"
+      "ngày mất": "dbo:deathDate"
+      "nơi mất": "dbo:deathPlace"
+      "thể loại": "dbo:genre"
+      "genre": "dbo:genre"
+      "nhạc cụ": "dbo:instrument"
+      "instrument": "dbo:instrument"
+      "nguyên quán": "dbo:birthPlace"
+      "origin": "dbo:birthPlace"
+      "quốc tịch": "dbo:nationality"
+
+  "Infobox musical artist":
+    class: "dbo:MusicalArtist"
+    properties:
+      "name": "foaf:name"
+      "tên": "foaf:name"
+      "birth_date": "dbo:birthDate"
+      "birth_place": "dbo:birthPlace"
+      "death_date": "dbo:deathDate"
+      "death_place": "dbo:deathPlace"
+      "genre": "dbo:genre"
+      "thể loại": "dbo:genre"
+      "instrument": "dbo:instrument"
+      "nhạc cụ": "dbo:instrument"
+      "origin": "dbo:birthPlace"
+      "nguyên quán": "dbo:birthPlace"
+
+  # ==========================================
+  # 11. CHỨC VỤ CHÍNH TRỊ & NHÂN VẬT QUỐC HỘI
+  # ==========================================
+  "Infobox Political post":
+    class: "dbo:PoliticalFunction"
+    properties:
+      "post": "rdfs:label"
+      "incumbent": "dbo:incumbent"
+      "seat": "dbo:location"
+      "department": "dbo:department"
+      "formation": "dbo:foundingDate"
+
+  "Thông tin đại biểu quốc hội":
+    class: "dbo:Person"
+    properties:
+      "tên": "foaf:name"
+      "name": "foaf:name"
+      "ngày sinh": "dbo:birthDate"
+      "nơi sinh": "dbo:birthPlace"
+      "tỉnh": "vido:province"
+      "con": "dbo:child"
+
+  # ==========================================
+  # 12. ĐỀN / CHÙA / DI TÍCH
+  # ==========================================
+  "Thông tin đền Việt Nam":
+    class: "dbo:ReligiousBuilding"
+    properties:
+      "tên": "rdfs:label"
+      "name": "rdfs:label"
+      "địa chỉ": "dbo:location"
+
+  "Thông tin tháp Chăm":
+    class: "dbo:ReligiousBuilding"
+    properties:
+      "tên": "rdfs:label"
+      "name": "rdfs:label"
+      "địa chỉ": "dbo:location"
+      "quốc gia": "dbo:country"
+
+  # ==========================================
+  # 13. TRƯỜNG HỌC
+  # ==========================================
+  "Thông tin trường học":
+    class: "dbo:School"
+    properties:
+      "tên": "foaf:name"
+      "name": "foaf:name"
+      "loại hình": "dbo:type"
+      "hiệu trưởng": "dbo:principal"
+      "địa chỉ": "dbo:location"
+      "tỉnh": "vido:province"
+      "quốc gia": "dbo:country"
+      "web": "foaf:homepage"
+      "website": "foaf:homepage"
+      "ngày thành lập": "dbo:foundingDate"
+
+  # ==========================================
+  # 14. NHÂN VẬT HOÀNG GIA
+  # ==========================================
+  "Thông tin nhân vật hoàng gia":
+    class: "dbo:Person"
+    properties:
+      "tên": "foaf:name"
+      "name": "foaf:name"
+      "ngày sinh": "dbo:birthDate"
+      "nơi sinh": "dbo:birthPlace"
+      "ngày mất": "dbo:deathDate"
+      "nơi mất": "dbo:deathPlace"
+      "vợ": "dbo:spouse"
+      "tại vị": "dbo:activeYears"
+      "tiền nhiệm": "dbo:predecessor"
+      "kế nhiệm": "dbo:successor"
+
+  # ==========================================
+  # 15. DÂN TỘC
+  # ==========================================
+  "Infobox Ethnic group":
+    class: "dbo:EthnicGroup"
+    properties:
+      "group": "rdfs:label"
+      "population": "dbo:populationTotal"
+      "langs": "dbo:language"
+      "region1": "dbo:region"
+
+  "Infobox ethnic group":
+    class: "dbo:EthnicGroup"
+    properties:
+      "group": "rdfs:label"
+      "population": "dbo:populationTotal"
+      "langs": "dbo:language"
+      "region1": "dbo:region"
+
+  # ==========================================
+  # 16. CHÍNH PHỦ & XUNG ĐỘT DÂN SỰ
+  # ==========================================
+  "Thông tin nhiệm kỳ chính phủ":
+    class: "dbo:GovernmentAgency"
+    properties:
+      "tên chính phủ": "rdfs:label"
+      "quốc gia": "dbo:country"
+      "ngày thành lập": "dbo:foundingDate"
+      "ngày kết thúc": "dbo:dissolutionDate"
+      "thủ tướng": "dbo:leader"
+
+  "Thông tin xung đột dân sự":
+    class: "dbo:MilitaryConflict"
+    properties:
+      "title": "rdfs:label"
+      "date": "dbo:date"
+      "place": "dbo:place"
+      "result": "dbo:result"
+      "causes": "dbo:abstract"
+
+  # ==========================================
+  # 17. NGHỆ SĨ & QUỐC GIA
+  # ==========================================
+  "Infobox Artist":
+    class: "dbo:Person"
+    properties:
+      "name": "foaf:name"
+      "birthdate": "dbo:birthDate"
+      "location": "dbo:birthPlace"
+      "deathdate": "dbo:deathDate"
+      "deathplace": "dbo:deathPlace"
+      "nationality": "dbo:nationality"
+
+  "Infobox country":
+    class: "dbo:Country"
+    properties:
+      "conventional_long_name": "foaf:name"
+      "year_start": "dbo:foundingYear"
+      "year_end": "dbo:dissolutionYear"
   
