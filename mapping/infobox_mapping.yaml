@@ -6,15 +6,28 @@ mappings:
     class: "dbo:Person"
     properties:
       "tên": "foaf:name"
+      "name": "foaf:name"
+      "tên khai sinh": "foaf:name"
       "ngày sinh": "dbo:birthDate"
+      "birth_date": "dbo:birthDate"
+      "sinh": "dbo:birthDate"
       "nơi sinh": "dbo:birthPlace"
+      "birth_place": "dbo:birthPlace"
       "ngày mất": "dbo:deathDate"
+      "death_date": "dbo:deathDate"
+      "mất": "dbo:deathDate"
+      "ngày chết": "dbo:deathDate"
       "nơi mất": "dbo:deathPlace"
+      "death_place": "dbo:deathPlace"
+      "nơi chết": "dbo:deathPlace"
       "nghề nghiệp": "dbo:occupation"
+      "occupation": "dbo:occupation"
       "quốc tịch": "dbo:nationality"
+      "nationality": "dbo:nationality"
       "phu ngẫu": "dbo:spouse"
       "vợ": "dbo:spouse"
       "chồng": "dbo:spouse"
+      "spouse": "dbo:spouse"
       "con": "dbo:child"
       "hình ảnh": "foaf:depiction"
 
@@ -22,18 +35,97 @@ mappings:
     class: "dbo:Person"
     properties:
       "name": "foaf:name"
+      "tên": "foaf:name"
       "birth_date": "dbo:birthDate"
+      "ngày sinh": "dbo:birthDate"
       "birth_place": "dbo:birthPlace"
+      "nơi sinh": "dbo:birthPlace"
       "death_date": "dbo:deathDate"
+      "ngày mất": "dbo:deathDate"
       "death_place": "dbo:deathPlace"
+      "nơi mất": "dbo:deathPlace"
       "occupation": "dbo:occupation"
+      "nghề nghiệp": "dbo:occupation"
       "nationality": "dbo:nationality"
+      "quốc tịch": "dbo:nationality"
       "spouse": "dbo:spouse"
+
+  "Thông tin nhân vật phong kiến":
+    class: "dbo:Person"
+    properties:
+      "tên": "foaf:name"
+      "name": "foaf:name"
+      "sinh": "dbo:birthDate"
+      "ngày sinh": "dbo:birthDate"
+      "nơi sinh": "dbo:birthPlace"
+      "mất": "dbo:deathDate"
+      "ngày mất": "dbo:deathDate"
+      "nơi mất": "dbo:deathPlace"
+      "nơi chết": "dbo:deathPlace"
+      "triều đại": "dbo:era"
+      "tước hiệu": "dbo:title"
+      "thụy hiệu": "dbo:title"
+
+  "Thông tin viên chức":
+    class: "dbo:Person"
+    properties:
+      "tên": "foaf:name"
+      "name": "foaf:name"
+      "ngày sinh": "dbo:birthDate"
+      "nơi sinh": "dbo:birthPlace"
+      "ngày mất": "dbo:deathDate"
+      "ngày chết": "dbo:deathDate"
+      "nơi mất": "dbo:deathPlace"
+      "nơi chết": "dbo:deathPlace"
+      "quốc tịch": "dbo:nationality"
+      "chức vụ": "dbo:occupation"
+
+  "Thông tin viên chức 1":
+    class: "dbo:Person"
+    properties:
+      "tên": "foaf:name"
+      "name": "foaf:name"
+      "ngày sinh": "dbo:birthDate"
+      "nơi sinh": "dbo:birthPlace"
+      "ngày mất": "dbo:deathDate"
+      "nơi mất": "dbo:deathPlace"
+      "quốc tịch": "dbo:nationality"
+      "chức vụ": "dbo:occupation"
+
+  "Thông tin nhà văn":
+    class: "dbo:Person"
+    properties:
+      "tên": "foaf:name"
+      "name": "foaf:name"
+      "tên khai sinh": "foaf:name"
+      "ngày sinh": "dbo:birthDate"
+      "birth_date": "dbo:birthDate"
+      "nơi sinh": "dbo:birthPlace"
+      "ngày mất": "dbo:deathDate"
+      "nơi mất": "dbo:deathPlace"
+      "nghề nghiệp": "dbo:occupation"
+      "quốc tịch": "dbo:nationality"
+      "thể loại": "dbo:genre"
+
+  "Thông tin nghệ sĩ":
+    class: "dbo:Person"
+    properties:
+      "tên": "foaf:name"
+      "name": "foaf:name"
+      "tên khai sinh": "foaf:name"
+      "ngày sinh": "dbo:birthDate"
+      "nơi sinh": "dbo:birthPlace"
+      "ngày mất": "dbo:deathDate"
+      "nơi mất": "dbo:deathPlace"
+      "nghề nghiệp": "dbo:occupation"
+      "quốc tịch": "dbo:nationality"
+      "thể loại âm nhạc": "dbo:genre"
 
   "Thông tin quân nhân":
     class: "dbo:MilitaryPerson"
     properties:
       "tên": "foaf:name"
+      "name": "foaf:name"
       "ngày sinh": "dbo:birthDate"
       "nơi sinh": "dbo:birthPlace"
       "ngày mất": "dbo:deathDate"
@@ -43,6 +135,41 @@ mappings:
       "trận chiến": "dbo:battle"
       "quốc gia": "dbo:country"
 
+  "Infobox officeholder":
+    class: "dbo:Person"
+    properties:
+      "name": "foaf:name"
+      "birth_date": "dbo:birthDate"
+      "birth_place": "dbo:birthPlace"
+      "death_date": "dbo:deathDate"
+      "death_place": "dbo:deathPlace"
+      "nationality": "dbo:nationality"
+      "office": "dbo:occupation"
+
+  "Infobox writer":
+    class: "dbo:Person"
+    properties:
+      "name": "foaf:name"
+      "birth_date": "dbo:birthDate"
+      "birth_place": "dbo:birthPlace"
+      "death_date": "dbo:deathDate"
+      "death_place": "dbo:deathPlace"
+      "occupation": "dbo:occupation"
+      "nationality": "dbo:nationality"
+      "genre": "dbo:genre"
+
+  "Infobox military person":
+    class: "dbo:MilitaryPerson"
+    properties:
+      "name": "foaf:name"
+      "birth_date": "dbo:birthDate"
+      "birth_place": "dbo:birthPlace"
+      "death_date": "dbo:deathDate"
+      "death_place": "dbo:deathPlace"
+      "branch": "dbo:militaryBranch"
+      "rank": "dbo:militaryRank"
+      "battles": "dbo:battle"
+
   # ==========================================
   # 2. ĐỊA LÝ & HÀNH CHÍNH
   # ==========================================
@@ -50,6 +177,7 @@ mappings:
     class: "dbo:PopulatedPlace"
     properties:
       "tên": "rdfs:label"
+      "name": "rdfs:label"
       "vùng": "dbo:region"
       "tỉnh": "dbo:province"
       "diện tích": "dbo:areaTotal"
@@ -58,10 +186,33 @@ mappings:
       "trang web": "foaf:homepage"
       "website": "foaf:homepage"
 
+  "Thông tin tỉnh thành Việt Nam":
+    class: "dbo:PopulatedPlace"
+    properties:
+      "tên": "rdfs:label"
+      "name": "rdfs:label"
+      "vùng": "dbo:region"
+      "diện tích": "dbo:areaTotal"
+      "dân số": "dbo:populationTotal"
+      "trang web": "foaf:homepage"
+      "website": "foaf:homepage"
+
+  "Thông tin khu dân cư":
+    class: "dbo:PopulatedPlace"
+    properties:
+      "tên": "rdfs:label"
+      "name": "rdfs:label"
+      "vùng": "dbo:region"
+      "tỉnh": "dbo:province"
+      "diện tích": "dbo:areaTotal"
+      "dân số": "dbo:populationTotal"
+      "website": "foaf:homepage"
+
   "Infobox settlement":
     class: "dbo:PopulatedPlace"
     properties:
       "name": "rdfs:label"
+      "tên": "rdfs:label"
       "subdivision_name": "dbo:region"
       "area_total_km2": "dbo:areaTotal"
       "population_total": "dbo:populationTotal"
@@ -71,10 +222,21 @@ mappings:
     class: "dbo:River"
     properties:
       "tên": "rdfs:label"
+      "name": "rdfs:label"
       "độ dài": "dbo:length"
       "diện tích lưu vực": "dbo:watershed"
       "lưu lượng": "dbo:discharge"
       "nguồn": "dbo:riverMouth"
+
+  "Thông tin công trình xây dựng":
+    class: "dbo:Building"
+    properties:
+      "tên": "rdfs:label"
+      "name": "rdfs:label"
+      "quốc gia": "dbo:country"
+      "địa chỉ": "dbo:location"
+      "khởi công": "dbo:foundingDate"
+      "hoàn thành": "dbo:completionDate"
 
   # ==========================================
   # 3. TỔ CHỨC & ĐẠI HỌC
@@ -83,34 +245,90 @@ mappings:
     class: "dbo:Company"
     properties:
       "tên công ty": "foaf:name"
+      "company_name": "foaf:name"
+      "name": "foaf:name"
+      "tên": "foaf:name"
       "ngành nghề": "dbo:industry"
+      "industry": "dbo:industry"
       "trụ sở chính": "dbo:headquarter"
+      "headquarters": "dbo:headquarter"
+      "location_city": "dbo:headquarter"
       "người sáng lập": "dbo:founder"
+      "founder": "dbo:founder"
       "doanh thu": "dbo:revenue"
+      "revenue": "dbo:revenue"
       "số nhân viên": "dbo:numberOfEmployees"
+      "num_employees": "dbo:numberOfEmployees"
       "sản phẩm": "dbo:product"
+      "products": "dbo:product"
       "trang web": "foaf:homepage"
       "website": "foaf:homepage"
+      "homepage": "foaf:homepage"
 
   "Infobox company":
     class: "dbo:Company"
     properties:
       "name": "foaf:name"
+      "company_name": "foaf:name"
+      "tên công ty": "foaf:name"
       "industry": "dbo:industry"
+      "ngành nghề": "dbo:industry"
       "headquarters": "dbo:headquarter"
+      "location_city": "dbo:headquarter"
+      "trụ sở chính": "dbo:headquarter"
       "founder": "dbo:founder"
+      "người sáng lập": "dbo:founder"
       "revenue": "dbo:revenue"
+      "doanh thu": "dbo:revenue"
+      "num_employees": "dbo:numberOfEmployees"
       "homepage": "foaf:homepage"
+      "website": "foaf:homepage"
+      "trang web": "foaf:homepage"
+
+  "Thông tin hãng hàng không":
+    class: "dbo:Company"
+    properties:
+      "airline": "foaf:name"
+      "name": "foaf:name"
+      "tên": "foaf:name"
+      "founded": "dbo:foundingDate"
+      "headquarters": "dbo:headquarter"
+      "fleet_size": "dbo:fleetSize"
+      "destinations": "dbo:numberOfDestinations"
+      "parent": "dbo:parentCompany"
+      "IATA": "dbo:iataCode"
+      "ICAO": "dbo:icaoCode"
+      "hubs": "dbo:hub"
+      "website": "foaf:homepage"
+      "homepage": "foaf:homepage"
+
+  "Infobox airline":
+    class: "dbo:Company"
+    properties:
+      "airline": "foaf:name"
+      "name": "foaf:name"
+      "founded": "dbo:foundingDate"
+      "headquarters": "dbo:headquarter"
+      "fleet_size": "dbo:fleetSize"
+      "hubs": "dbo:hub"
+      "IATA": "dbo:iataCode"
+      "ICAO": "dbo:icaoCode"
+      "website": "foaf:homepage"
 
   "Thông tin đại học":
     class: "dbo:University"
     properties:
       "tên": "foaf:name"
+      "name": "foaf:name"
       "thành phố": "dbo:city"
+      "city": "dbo:city"
       "hiệu trưởng": "dbo:president"
+      "president": "dbo:president"
       "thành lập": "dbo:foundingDate"
+      "established": "dbo:foundingDate"
       "năm thành lập": "dbo:foundingYear"
       "sinh viên": "dbo:numberOfStudents"
+      "students": "dbo:numberOfStudents"
       "trang web": "foaf:homepage"
       "website": "foaf:homepage"
 
@@ -118,17 +336,59 @@ mappings:
     class: "dbo:University"
     properties:
       "name": "foaf:name"
+      "tên": "foaf:name"
       "city": "dbo:city"
+      "thành phố": "dbo:city"
       "president": "dbo:president"
+      "hiệu trưởng": "dbo:president"
       "established": "dbo:foundingDate"
+      "thành lập": "dbo:foundingDate"
       "students": "dbo:numberOfStudents"
+      "sinh viên": "dbo:numberOfStudents"
       "website": "foaf:homepage"
 
   # ==========================================
   # 4. LỊCH SỬ
   # ==========================================
   "Thông tin triều đại":
-    class: "dbo:HistoricalPeriod"
+    class: "vido:VietnameseDynasty"
+    properties:
+      "tên": "rdfs:label"
+      "name": "rdfs:label"
+      "thủ đô": "dbo:capital"
+      "capital": "dbo:capital"
+      "năm bắt đầu": "dbo:foundingYear"
+      "năm kết thúc": "dbo:dissolutionYear"
+      "người sáng lập": "dbo:founder"
+
+  "Infobox Former Country":
+    class: "vido:VietnameseDynasty"
+    properties:
+      "common_name": "rdfs:label"
+      "conventional_long_name": "foaf:name"
+      "native_name": "rdfs:label"
+      "government_type": "dbo:governmentType"
+      "capital": "dbo:capital"
+      "year_start": "dbo:foundingYear"
+      "year_end": "dbo:dissolutionYear"
+      "leader1": "dbo:leader"
+      "event_start": "dbo:foundingEvent"
+      "event_end": "dbo:dissolutionEvent"
+
+  "Infobox former country":
+    class: "vido:VietnameseDynasty"
+    properties:
+      "common_name": "rdfs:label"
+      "conventional_long_name": "foaf:name"
+      "native_name": "rdfs:label"
+      "government_type": "dbo:governmentType"
+      "capital": "dbo:capital"
+      "year_start": "dbo:foundingYear"
+      "year_end": "dbo:dissolutionYear"
+      "leader1": "dbo:leader"
+
+  "Thông tin quốc gia cũ":
+    class: "vido:VietnameseDynasty"
     properties:
       "tên": "rdfs:label"
       "thủ đô": "dbo:capital"

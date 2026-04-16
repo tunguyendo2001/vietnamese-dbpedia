@@ -24,6 +24,9 @@ def main():
     with open("mapping/infobox_mapping.yaml", 'r', encoding='utf-8') as f:
         mapping = yaml.safe_load(f)['mappings']
 
+    # Build case-insensitive lookup for template names
+    mapping_lower = {k.lower(): v for k, v in mapping.items()}
+
     processed_dir = "data/processed"
     files = [f for f in os.listdir(processed_dir) if f.endswith(".json")]
     
@@ -38,9 +41,13 @@ def main():
         
         for ib in article['infoboxes']:
             template_name = ib['template']
-            if template_name in mapping:
-                map_rule = mapping[template_name]
-                
+            
+            # Try exact match first, then case-insensitive
+            map_rule = mapping.get(template_name)
+            if not map_rule:
+                map_rule = mapping_lower.get(template_name.lower())
+            
+            if map_rule:
                 # Set class
                 class_uri = map_rule['class']
                 if class_uri.startswith("dbo:"):
