@@ -27,6 +27,18 @@ def main():
     # Build case-insensitive lookup for template names
     mapping_lower = {k.lower(): v for k, v in mapping.items()}
 
+    # Common person property names for fallback matching
+    person_properties = {
+        "tên": "foaf:name", "name": "foaf:name", "tên khai sinh": "foaf:name",
+        "ngày sinh": "dbo:birthDate", "birth_date": "dbo:birthDate", "sinh": "dbo:birthDate",
+        "nơi sinh": "dbo:birthPlace", "birth_place": "dbo:birthPlace",
+        "ngày mất": "dbo:deathDate", "death_date": "dbo:deathDate", "mất": "dbo:deathDate",
+        "nơi mất": "dbo:deathPlace", "death_place": "dbo:deathPlace",
+        "nghề nghiệp": "dbo:occupation", "occupation": "dbo:occupation",
+        "quốc tịch": "dbo:nationality", "nationality": "dbo:nationality",
+    }
+    fallback_person = {"class": "dbo:Person", "properties": person_properties}
+
     processed_dir = "data/processed"
     files = [f for f in os.listdir(processed_dir) if f.endswith(".json")]
     
@@ -46,6 +58,15 @@ def main():
             map_rule = mapping.get(template_name)
             if not map_rule:
                 map_rule = mapping_lower.get(template_name.lower())
+            
+            # Fallback: any "Thông tin" or "Infobox" template with person-like fields
+            if not map_rule:
+                tl = template_name.lower()
+                if tl.startswith("thông tin") or tl.startswith("infobox"):
+                    keys = set(ib['data'].keys())
+                    person_hints = {"ngày sinh", "nơi sinh", "birth_date", "birth_place", "sinh"}
+                    if keys & person_hints:
+                        map_rule = fallback_person
             
             if map_rule:
                 # Set class

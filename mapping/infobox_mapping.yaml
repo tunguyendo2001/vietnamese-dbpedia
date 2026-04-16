@@ -395,4 +395,267 @@ mappings:
       "năm bắt đầu": "dbo:foundingYear"
       "năm kết thúc": "dbo:dissolutionYear"
       "người sáng lập": "dbo:founder"
+
+  # ==========================================
+  # 5. THÊM CÁC TEMPLATE NHÂN VẬT PHỔ BIẾN
+  # ==========================================
+  "Thông tin nhạc sĩ":
+    class: "dbo:Person"
+    properties:
+      "tên": "foaf:name"
+      "name": "foaf:name"
+      "tên khai sinh": "foaf:name"
+      "ngày sinh": "dbo:birthDate"
+      "nơi sinh": "dbo:birthPlace"
+      "ngày mất": "dbo:deathDate"
+      "nơi mất": "dbo:deathPlace"
+      "nghề nghiệp": "dbo:occupation"
+      "quốc tịch": "dbo:nationality"
+      "thể loại": "dbo:genre"
+
+  "Thông tin diễn viên":
+    class: "dbo:Person"
+    properties:
+      "tên": "foaf:name"
+      "name": "foaf:name"
+      "tên khai sinh": "foaf:name"
+      "ngày sinh": "dbo:birthDate"
+      "nơi sinh": "dbo:birthPlace"
+      "ngày mất": "dbo:deathDate"
+      "nơi mất": "dbo:deathPlace"
+      "nghề nghiệp": "dbo:occupation"
+      "quốc tịch": "dbo:nationality"
+
+  "Thông tin ca sĩ":
+    class: "dbo:Person"
+    properties:
+      "tên": "foaf:name"
+      "name": "foaf:name"
+      "tên khai sinh": "foaf:name"
+      "ngày sinh": "dbo:birthDate"
+      "nơi sinh": "dbo:birthPlace"
+      "ngày mất": "dbo:deathDate"
+      "nơi mất": "dbo:deathPlace"
+      "nghề nghiệp": "dbo:occupation"
+      "quốc tịch": "dbo:nationality"
+      "thể loại": "dbo:genre"
+
+  "Thông tin nhà thơ":
+    class: "dbo:Person"
+    properties:
+      "tên": "foaf:name"
+      "name": "foaf:name"
+      "tên khai sinh": "foaf:name"
+      "ngày sinh": "dbo:birthDate"
+      "nơi sinh": "dbo:birthPlace"
+      "ngày mất": "dbo:deathDate"
+      "nơi mất": "dbo:deathPlace"
+      "nghề nghiệp": "dbo:occupation"
+      "quốc tịch": "dbo:nationality"
+      "thể loại": "dbo:genre"
+
+  "Thông tin đạo diễn":
+    class: "dbo:Person"
+    properties:
+      "tên": "foaf:name"
+      "name": "foaf:name"
+      "ngày sinh": "dbo:birthDate"
+      "nơi sinh": "dbo:birthPlace"
+      "ngày mất": "dbo:deathDate"
+      "nơi mất": "dbo:deathPlace"
+      "quốc tịch": "dbo:nationality"
+
+  "Thông tin nhà khoa học":
+    class: "dbo:Person"
+    properties:
+      "tên": "foaf:name"
+      "name": "foaf:name"
+      "ngày sinh": "dbo:birthDate"
+      "nơi sinh": "dbo:birthPlace"
+      "ngày mất": "dbo:deathDate"
+      "nơi mất": "dbo:deathPlace"
+      "quốc tịch": "dbo:nationality"
+      "lĩnh vực": "dbo:field"
+
+  "Thông tin nhà báo":
+    class: "dbo:Person"
+    properties:
+      "tên": "foaf:name"
+      "name": "foaf:name"
+      "ngày sinh": "dbo:birthDate"
+      "nơi sinh": "dbo:birthPlace"
+      "ngày mất": "dbo:deathDate"
+      "nơi mất": "dbo:deathPlace"
+      "quốc tịch": "dbo:nationality"
+
+  "Thông tin vận động viên":
+    class: "dbo:Person"
+    properties:
+      "tên": "foaf:name"
+      "name": "foaf:name"
+      "tên khai sinh": "foaf:name"
+      "ngày sinh": "dbo:birthDate"
+      "nơi sinh": "dbo:birthPlace"
+      "quốc tịch": "dbo:nationality"
+      "môn thể thao": "dbo:sport"
+
+  "Thông tin cầu thủ bóng đá":
+    class: "dbo:Person"
+    properties:
+      "tên": "foaf:name"
+      "name": "foaf:name"
+      "tên đầy đủ": "foaf:name"
+      "ngày sinh": "dbo:birthDate"
+      "nơi sinh": "dbo:birthPlace"
+      "vị trí": "dbo:position"
+      "câu lạc bộ hiện tại": "dbo:team"
+      "quốc tịch": "dbo:nationality"
+
+  "Infobox football biography":
+    class: "dbo:Person"
+    properties:
+      "name": "foaf:name"
+      "fullname": "foaf:name"
+      "birth_date": "dbo:birthDate"
+      "birth_place": "dbo:birthPlace"
+      "position": "dbo:position"
+      "currentclub": "dbo:team"
+
+  "Thông tin hoàng gia":
+    class: "dbo:Person"
+    properties:
+      "tên": "foaf:name"
+      "name": "foaf:name"
+      "sinh": "dbo:birthDate"
+      "ngày sinh": "dbo:birthDate"
+      "nơi sinh": "dbo:birthPlace"
+      "mất": "dbo:deathDate"
+      "ngày mất": "dbo:deathDate"
+      "nơi mất": "dbo:deathPlace"
+      "triều đại": "dbo:era"
+      "tước hiệu": "dbo:title"
+
+  "Thông tin vương quốc":
+    class: "vido:VietnameseDynasty"
+    properties:
+      "tên": "rdfs:label"
+      "name": "rdfs:label"
+      "thủ đô": "dbo:capital"
+      "năm bắt đầu": "dbo:foundingYear"
+      "năm kết thúc": "dbo:dissolutionYear"
+
+  # ==========================================
+  # 6. THÊM CÁC TEMPLATE ĐỊA LÝ / CÔNG TRÌNH
+  # ==========================================
+  "Thông tin hồ":
+    class: "dbo:Lake"
+    properties:
+      "tên": "rdfs:label"
+      "name": "rdfs:label"
+      "diện tích": "dbo:areaTotal"
+      "độ sâu": "dbo:depth"
+      "quốc gia": "dbo:country"
+
+  "Thông tin núi":
+    class: "dbo:Mountain"
+    properties:
+      "tên": "rdfs:label"
+      "name": "rdfs:label"
+      "độ cao": "dbo:elevation"
+      "quốc gia": "dbo:country"
+
+  "Thông tin đảo":
+    class: "dbo:Island"
+    properties:
+      "tên": "rdfs:label"
+      "name": "rdfs:label"
+      "diện tích": "dbo:areaTotal"
+      "dân số": "dbo:populationTotal"
+      "quốc gia": "dbo:country"
+
+  "Thông tin chùa":
+    class: "dbo:ReligiousBuilding"
+    properties:
+      "tên": "rdfs:label"
+      "name": "rdfs:label"
+      "địa chỉ": "dbo:location"
+      "quốc gia": "dbo:country"
+      "thành lập": "dbo:foundingDate"
+
+  "Thông tin sân bay":
+    class: "dbo:Airport"
+    properties:
+      "tên": "rdfs:label"
+      "name": "rdfs:label"
+      "IATA": "dbo:iataCode"
+      "ICAO": "dbo:icaoCode"
+      "thành phố": "dbo:city"
+      "quốc gia": "dbo:country"
+
+  "Thông tin đường cao tốc":
+    class: "dbo:Road"
+    properties:
+      "tên": "rdfs:label"
+      "name": "rdfs:label"
+      "chiều dài": "dbo:length"
+      "hướng đi": "dbo:direction"
+
+  "Thông tin ngân hàng":
+    class: "dbo:Company"
+    properties:
+      "tên": "foaf:name"
+      "name": "foaf:name"
+      "trụ sở chính": "dbo:headquarter"
+      "thành lập": "dbo:foundingDate"
+      "tổng tài sản": "dbo:assets"
+      "trang web": "foaf:homepage"
+      "website": "foaf:homepage"
+
+  "Thông tin tổ chức":
+    class: "dbo:Organisation"
+    properties:
+      "tên": "foaf:name"
+      "name": "foaf:name"
+      "trụ sở": "dbo:headquarter"
+      "thành lập": "dbo:foundingDate"
+      "người sáng lập": "dbo:founder"
+      "trang web": "foaf:homepage"
+      "website": "foaf:homepage"
+
+  "Infobox organization":
+    class: "dbo:Organisation"
+    properties:
+      "name": "foaf:name"
+      "headquarters": "dbo:headquarter"
+      "formation": "dbo:foundingDate"
+      "founder": "dbo:founder"
+      "website": "foaf:homepage"
+
+  # ==========================================
+  # 7. CHIẾN TRANH / SỰ KIỆN QUÂN SỰ
+  # ==========================================
+  "Thông tin chiến tranh":
+    class: "dbo:MilitaryConflict"
+    properties:
+      "tên": "rdfs:label"
+      "name": "rdfs:label"
+      "ngày": "dbo:date"
+      "nơi": "dbo:place"
+      "kết quả": "dbo:result"
+
+  "Infobox Military Conflict":
+    class: "dbo:MilitaryConflict"
+    properties:
+      "conflict": "rdfs:label"
+      "date": "dbo:date"
+      "place": "dbo:place"
+      "result": "dbo:result"
+
+  "Infobox military conflict":
+    class: "dbo:MilitaryConflict"
+    properties:
+      "conflict": "rdfs:label"
+      "date": "dbo:date"
+      "place": "dbo:place"
+      "result": "dbo:result"
   
