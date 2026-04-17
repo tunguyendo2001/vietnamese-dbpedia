@@ -14,7 +14,7 @@ def main():
     # subprocess.run([sys.executable, "-m", "pip", "install", "-r", "requirements.txt"])
 
     # 1. Download Data
-    # run_script("crawler/download_dump.py")
+    run_script("crawler/download_dump.py")
     
     # 2. Extract Infoboxes
     run_script("crawler/extract_infobox.py")
