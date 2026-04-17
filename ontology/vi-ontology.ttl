@@ -35,6 +35,55 @@ vido:River a owl:Class ;
     rdfs:label "Sông ngòi"@vi ;
     owl:equivalentClass dbo:River .
 
+vido:PopulatedPlace a owl:Class ;
+    rdfs:label "Địa điểm dân cư"@vi ;
+    owl:equivalentClass dbo:PopulatedPlace .
+
+vido:Building a owl:Class ;
+    rdfs:label "Công trình xây dựng"@vi ;
+    owl:equivalentClass dbo:Building .
+
+vido:Lake a owl:Class ;
+    rdfs:label "Hồ"@vi ;
+    owl:equivalentClass dbo:Lake .
+
+vido:Mountain a owl:Class ;
+    rdfs:label "Núi"@vi ;
+    owl:equivalentClass dbo:Mountain .
+
+vido:Island a owl:Class ;
+    rdfs:label "Đảo"@vi ;
+    owl:equivalentClass dbo:Island .
+
+vido:ReligiousBuilding a owl:Class ;
+    rdfs:label "Công trình tôn giáo"@vi ;
+    owl:equivalentClass dbo:ReligiousBuilding .
+
+vido:Airport a owl:Class ;
+    rdfs:label "Sân bay"@vi ;
+    owl:equivalentClass dbo:Airport .
+
+vido:Road a owl:Class ;
+    rdfs:label "Đường giao thông"@vi ;
+    owl:equivalentClass dbo:Road .
+
+vido:Organisation a owl:Class ;
+    rdfs:label "Tổ chức"@vi ;
+    owl:equivalentClass dbo:Organisation .
+
+vido:MilitaryConflict a owl:Class ;
+    rdfs:label "Xung đột quân sự"@vi ;
+    owl:equivalentClass dbo:MilitaryConflict .
+
+vido:WorldHeritageSite a owl:Class ;
+    rdfs:label "Di sản thế giới"@vi ;
+    owl:equivalentClass dbo:WorldHeritageSite .
+
+vido:MusicalArtist a owl:Class ;
+    rdfs:label "Nghệ sĩ âm nhạc"@vi ;
+    rdfs:subClassOf vido:Person ;
+    owl:equivalentClass dbo:MusicalArtist .
+
 # ==========================================
 # 2. CÁC CLASS ĐẶC THÙ CỦA VIỆT NAM (CUSTOM CLASSES)
 # ==========================================
@@ -44,10 +93,25 @@ vido:AdministrativeDivisionVN a owl:Class ;
     rdfs:subClassOf dbo:PopulatedPlace ;
     rdfs:comment "Phân cấp hành chính đặc thù của Việt Nam (Tỉnh, Huyện, Xã)"@vi .
 
+vido:VietnameseProvince a owl:Class ;
+    rdfs:label "Tỉnh / Thành phố trực thuộc Trung ương"@vi ;
+    rdfs:subClassOf vido:AdministrativeDivisionVN ;
+    rdfs:comment "63 tỉnh thành của Việt Nam"@vi .
+
+vido:VietnameseDistrict a owl:Class ;
+    rdfs:label "Quận / Huyện / Thị xã"@vi ;
+    rdfs:subClassOf vido:AdministrativeDivisionVN ;
+    rdfs:comment "Cấp hành chính quận, huyện, thị xã, thành phố thuộc tỉnh"@vi .
+
 vido:VietnameseDynasty a owl:Class ;
     rdfs:label "Triều đại Việt Nam"@vi ;
     rdfs:subClassOf dbo:HistoricalPeriod ;
     rdfs:comment "Các triều đại phong kiến trong lịch sử Việt Nam (Lý, Trần, Lê...)"@vi .
+
+vido:NationalHero a owl:Class ;
+    rdfs:label "Anh hùng dân tộc Việt Nam"@vi ;
+    rdfs:subClassOf vido:Person ;
+    rdfs:comment "Các nhân vật được công nhận là anh hùng dân tộc Việt Nam"@vi .
 
 # ==========================================
 # 3. CÁC PROPERTY ĐẶC THÙ HOẶC CẦN VIỆT HÓA
@@ -69,4 +133,21 @@ vido:province a owl:ObjectProperty ;
     owl:equivalentProperty dbo:province ;
     rdfs:domain vido:AdministrativeDivisionVN ;
     rdfs:range dbo:PopulatedPlace .
+
+vido:ethnicGroup a owl:ObjectProperty ;
+    rdfs:label "dân tộc"@vi ;
+    rdfs:comment "Dân tộc của nhân vật hoặc cộng đồng"@vi ;
+    rdfs:range dbo:EthnicGroup .
+
+vido:dynastyEra a owl:ObjectProperty ;
+    rdfs:label "triều đại"@vi ;
+    rdfs:comment "Triều đại mà nhân vật phong kiến thuộc về"@vi ;
+    rdfs:domain vido:Person ;
+    rdfs:range vido:VietnameseDynasty .
+
+vido:administrativeLevel a owl:DatatypeProperty ;
+    rdfs:label "cấp hành chính"@vi ;
+    rdfs:comment "Cấp hành chính (tỉnh, huyện, xã)"@vi ;
+    rdfs:domain vido:AdministrativeDivisionVN ;
+    rdfs:range xsd:string .
     

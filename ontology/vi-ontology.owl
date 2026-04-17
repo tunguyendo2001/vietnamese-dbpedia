@@ -2,25 +2,182 @@
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
          xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:dbo="http://dbpedia.org/ontology/"
          xmlns:vido="http://vi.dbpedia.org/ontology/">
 
   <owl:Ontology rdf:about="http://vi.dbpedia.org/ontology/">
-    <rdfs:label xml:lang="vi">Vietnamese DBpedia Core Ontology</rdfs:label>
+    <rdfs:label xml:lang="vi">Vietnamese DBpedia Extended Ontology</rdfs:label>
+    <rdfs:comment xml:lang="vi">Ontology dành cho Vietnamese DBpedia, ánh xạ với DBpedia English và bổ sung khái niệm bản địa.</rdfs:comment>
   </owl:Ontology>
+
+  <!-- ==========================================
+       1. ÁNH XẠ CÁC CLASS CƠ BẢN (LABEL TIẾNG VIỆT)
+       ========================================== -->
 
   <owl:Class rdf:about="http://vi.dbpedia.org/ontology/Person">
     <rdfs:label xml:lang="vi">Nhân vật</rdfs:label>
     <owl:equivalentClass rdf:resource="http://dbpedia.org/ontology/Person"/>
   </owl:Class>
 
-  <owl:Class rdf:about="http://vi.dbpedia.org/ontology/Organization">
+  <owl:Class rdf:about="http://vi.dbpedia.org/ontology/MilitaryPerson">
+    <rdfs:label xml:lang="vi">Quân nhân</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://vi.dbpedia.org/ontology/Person"/>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/ontology/MilitaryPerson"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="http://vi.dbpedia.org/ontology/Company">
+    <rdfs:label xml:lang="vi">Công ty / Doanh nghiệp</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/ontology/Company"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="http://vi.dbpedia.org/ontology/University">
+    <rdfs:label xml:lang="vi">Trường Đại học</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/ontology/University"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="http://vi.dbpedia.org/ontology/River">
+    <rdfs:label xml:lang="vi">Sông ngòi</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/ontology/River"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="http://vi.dbpedia.org/ontology/PopulatedPlace">
+    <rdfs:label xml:lang="vi">Địa điểm dân cư</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/ontology/PopulatedPlace"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="http://vi.dbpedia.org/ontology/Building">
+    <rdfs:label xml:lang="vi">Công trình xây dựng</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/ontology/Building"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="http://vi.dbpedia.org/ontology/Lake">
+    <rdfs:label xml:lang="vi">Hồ</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/ontology/Lake"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="http://vi.dbpedia.org/ontology/Mountain">
+    <rdfs:label xml:lang="vi">Núi</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/ontology/Mountain"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="http://vi.dbpedia.org/ontology/Island">
+    <rdfs:label xml:lang="vi">Đảo</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/ontology/Island"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="http://vi.dbpedia.org/ontology/ReligiousBuilding">
+    <rdfs:label xml:lang="vi">Công trình tôn giáo</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/ontology/ReligiousBuilding"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="http://vi.dbpedia.org/ontology/Airport">
+    <rdfs:label xml:lang="vi">Sân bay</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/ontology/Airport"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="http://vi.dbpedia.org/ontology/Road">
+    <rdfs:label xml:lang="vi">Đường giao thông</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/ontology/Road"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="http://vi.dbpedia.org/ontology/Organisation">
     <rdfs:label xml:lang="vi">Tổ chức</rdfs:label>
     <owl:equivalentClass rdf:resource="http://dbpedia.org/ontology/Organisation"/>
   </owl:Class>
 
-  <owl:DatatypeProperty rdf:about="http://vi.dbpedia.org/ontology/birthDate">
-    <rdfs:label xml:lang="vi">ngày sinh</rdfs:label>
-    <owl:equivalentProperty rdf:resource="http://dbpedia.org/ontology/birthDate"/>
+  <owl:Class rdf:about="http://vi.dbpedia.org/ontology/MilitaryConflict">
+    <rdfs:label xml:lang="vi">Xung đột quân sự</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/ontology/MilitaryConflict"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="http://vi.dbpedia.org/ontology/WorldHeritageSite">
+    <rdfs:label xml:lang="vi">Di sản thế giới</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/ontology/WorldHeritageSite"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="http://vi.dbpedia.org/ontology/MusicalArtist">
+    <rdfs:label xml:lang="vi">Nghệ sĩ âm nhạc</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://vi.dbpedia.org/ontology/Person"/>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/ontology/MusicalArtist"/>
+  </owl:Class>
+
+  <!-- ==========================================
+       2. CÁC CLASS ĐẶC THÙ CỦA VIỆT NAM
+       ========================================== -->
+
+  <owl:Class rdf:about="http://vi.dbpedia.org/ontology/AdministrativeDivisionVN">
+    <rdfs:label xml:lang="vi">Đơn vị hành chính Việt Nam</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/PopulatedPlace"/>
+    <rdfs:comment xml:lang="vi">Phân cấp hành chính đặc thù của Việt Nam (Tỉnh, Huyện, Xã)</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="http://vi.dbpedia.org/ontology/VietnameseProvince">
+    <rdfs:label xml:lang="vi">Tỉnh / Thành phố trực thuộc Trung ương</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://vi.dbpedia.org/ontology/AdministrativeDivisionVN"/>
+    <rdfs:comment xml:lang="vi">63 tỉnh thành của Việt Nam</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="http://vi.dbpedia.org/ontology/VietnameseDistrict">
+    <rdfs:label xml:lang="vi">Quận / Huyện / Thị xã</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://vi.dbpedia.org/ontology/AdministrativeDivisionVN"/>
+    <rdfs:comment xml:lang="vi">Cấp hành chính quận, huyện, thị xã, thành phố thuộc tỉnh</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="http://vi.dbpedia.org/ontology/VietnameseDynasty">
+    <rdfs:label xml:lang="vi">Triều đại Việt Nam</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/HistoricalPeriod"/>
+    <rdfs:comment xml:lang="vi">Các triều đại phong kiến trong lịch sử Việt Nam (Lý, Trần, Lê...)</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="http://vi.dbpedia.org/ontology/NationalHero">
+    <rdfs:label xml:lang="vi">Anh hùng dân tộc Việt Nam</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://vi.dbpedia.org/ontology/Person"/>
+    <rdfs:comment xml:lang="vi">Các nhân vật được công nhận là anh hùng dân tộc Việt Nam</rdfs:comment>
+  </owl:Class>
+
+  <!-- ==========================================
+       3. CÁC PROPERTY ĐẶC THÙ HOẶC CẦN VIỆT HÓA
+       ========================================== -->
+
+  <owl:DatatypeProperty rdf:about="http://vi.dbpedia.org/ontology/foundingYear">
+    <rdfs:label xml:lang="vi">năm thành lập</rdfs:label>
+    <owl:equivalentProperty rdf:resource="http://dbpedia.org/ontology/foundingYear"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#gYear"/>
   </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="http://vi.dbpedia.org/ontology/dissolutionYear">
+    <rdfs:label xml:lang="vi">năm sụp đổ / kết thúc</rdfs:label>
+    <owl:equivalentProperty rdf:resource="http://dbpedia.org/ontology/dissolutionYear"/>
+    <rdfs:domain rdf:resource="http://vi.dbpedia.org/ontology/VietnameseDynasty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#gYear"/>
+  </owl:DatatypeProperty>
+
+  <owl:ObjectProperty rdf:about="http://vi.dbpedia.org/ontology/province">
+    <rdfs:label xml:lang="vi">thuộc tỉnh</rdfs:label>
+    <owl:equivalentProperty rdf:resource="http://dbpedia.org/ontology/province"/>
+    <rdfs:domain rdf:resource="http://vi.dbpedia.org/ontology/AdministrativeDivisionVN"/>
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/PopulatedPlace"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="http://vi.dbpedia.org/ontology/ethnicGroup">
+    <rdfs:label xml:lang="vi">dân tộc</rdfs:label>
+    <rdfs:comment xml:lang="vi">Dân tộc của nhân vật hoặc cộng đồng</rdfs:comment>
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/EthnicGroup"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="http://vi.dbpedia.org/ontology/dynastyEra">
+    <rdfs:label xml:lang="vi">triều đại</rdfs:label>
+    <rdfs:comment xml:lang="vi">Triều đại mà nhân vật phong kiến thuộc về</rdfs:comment>
+    <rdfs:domain rdf:resource="http://vi.dbpedia.org/ontology/Person"/>
+    <rdfs:range rdf:resource="http://vi.dbpedia.org/ontology/VietnameseDynasty"/>
+  </owl:ObjectProperty>
+
+  <owl:DatatypeProperty rdf:about="http://vi.dbpedia.org/ontology/administrativeLevel">
+    <rdfs:label xml:lang="vi">cấp hành chính</rdfs:label>
+    <rdfs:comment xml:lang="vi">Cấp hành chính (tỉnh, huyện, xã)</rdfs:comment>
+    <rdfs:domain rdf:resource="http://vi.dbpedia.org/ontology/AdministrativeDivisionVN"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
 </rdf:RDF>
